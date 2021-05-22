@@ -1,7 +1,6 @@
-### Hi, Myself BHASKAR 👋
+### Hi, Myself BHASKAR <img src="./assets/waving_hand.gif" width="30px"></h2>
 
 
-**BhaskarAcharjee/BhaskarAcharjee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 

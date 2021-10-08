@@ -4,9 +4,7 @@
 <p align="center">
   <em>
     Hello, I am Bhaskar Acharjee a <b>Second Year</b> undergraduate from <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India <br>("Wisdom is all wealth"). <br>
-    <b>A passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> and a <b>Electronics & Communication Engineering Student</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">&nbsp,<br>who is <b>obsessed</b>
-    with <b>Data science</b> and always looking to find patterns of which are hidden in the data 
-  </em> 
+    <b>A passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> and a <b>Electronics & Communication Engineering Student</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">&nbsp </em> 
   <br>
   <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="50" />
 </p>

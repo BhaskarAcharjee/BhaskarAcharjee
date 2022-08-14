@@ -3,7 +3,7 @@
 <h3 align="center">Learning & Exploring the WORLD of Code 👨‍💻</h3>
 <p align="center">
   <em>
-    Hello, I am Bhaskar Acharjee a <b>Second Year</b> undergraduate from <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India. <br>
+    Hello, I am Bhaskar Acharjee a <b>Third Year</b> undergraduate from <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India. <br>
     <b>A passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> and a <b>Electronics & Communication Engineering Student</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">&nbsp </em> 
   <br>
   <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="50" />
@@ -15,7 +15,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee" alt="bhaskaracharjee" /></a> 
 <p align="left"> <a href="https://twitter.com/_bha_s_kar_" target="blank"><img src="https://img.shields.io/twitter/follow/_bha_s_kar_?logo=twitter&style=for-the-badge" alt="_bha_s_kar_" /></a> 
 
-- 🌱 I’m currently learning **C, C++, Python**
+- 🌱 I’m currently learning **C, C++, Python, Java**
 
 - 💬 Ask me about **Current Technologies, Innovative Ideas**
 

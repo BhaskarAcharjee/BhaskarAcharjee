@@ -3,7 +3,7 @@
 <h3 align="center">Learning & Exploring the WORLD of Code 👨‍💻</h3>
 <p align="center">
   <em>
-    Hello, I am Bhaskar Acharjee a <b>Third Year</b> undergraduate from <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India. <br>
+    Hello, I am Bhaskar Acharjee, a <b>pre-Final Year</b> undergraduate from <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India. <br>
     <b>A passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> and a <b>Electronics & Communication Engineering Student</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">&nbsp </em> 
   <br>
   <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="50" />
@@ -21,7 +21,7 @@
 
 - 📫 How to reach me **bhaskaracharjee2002@gmail.com**
 
-- ⚡ Fun fact **A Real mathematician can mathematically mathematise mathematics in a mathematical mathematiculation.so if a mathematician can mathematise mathematics in a mathematical mathematiculation, So why can't you mathematically mathematise mathematics in a mathematical mathematiculation like the mathematician who mathematically mathematises mathematics in a mathematical mathematiculation!**
+- ⚡ Fun fact **Behind every successful programmer, there's a Boolean heart beating with 'true' and 'false' rhythm. Keep those bits pulsating!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

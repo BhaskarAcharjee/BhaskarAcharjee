@@ -9,7 +9,6 @@
   <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhaskaracharjee&label=Profile%20views&color=0e75b6&style=flat" alt="bhaskaracharjee" /> 
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee" alt="bhaskaracharjee" /></a> 
 <p align="left"> <a href="https://twitter.com/_bha_s_kar_" target="blank"><img src="https://img.shields.io/twitter/follow/_bha_s_kar_?logo=twitter&style=for-the-badge" alt="_bha_s_kar_" /></a> 
 

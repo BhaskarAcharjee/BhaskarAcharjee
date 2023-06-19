@@ -1,4 +1,6 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">Hi, I am BHASKAR ACHARJEE </h1>
+<p align="center">
+<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="100px">
+<h1 align="center"> Hi, I am BHASKAR ACHARJEE </h1>
 <h3 align="center">Learning & Exploring the WORLD of Code 👨‍💻</h3>
 <p align="center">
   <em>
@@ -6,11 +8,10 @@
   </em> 
   <br>
   <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="69">
-  <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b>
+ <i align="center">"Embracing the Open World of Technology: <b> Building, Innovating, and Contributing!"</i></b>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhaskaracharjee&label=Profile%20views&color=0e75b6&style=flat" alt="bhaskaracharjee" /> 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee" alt="bhaskaracharjee" /></a> 
-<p align="left"> <a href="https://twitter.com/_bha_s_kar_" target="blank"><img src="https://img.shields.io/twitter/follow/_bha_s_kar_?logo=twitter&style=for-the-badge" alt="_bha_s_kar_" /></a> 
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee" alt="bhaskaracharjee" /></a>  
 
 ## Hello there! 👋
 🚀 In addition to my formal education in Electronics and Communication, I've ventured into diverse domains:
@@ -27,16 +28,16 @@
 
 💻 **Developer's Arsenal:** My trusted companions on this coding odyssey are tools like **VS Code, Android Studio,** and the powerful **Google Cloud Platform**. With these weapons in hand, I'm ready to conquer any programming challenge that comes my way.
 
-<h3 align="left"><b>Connect me</b> on this journey as we push the boundaries of technology and transform ideas into reality></h3>
+<h3 align="left"> Let's <b>Connect</b> and build something extraordinary together!</h3>
 <p align="left">
 <a href="https://twitter.com/_bha_s_kar_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_bha_s_kar_" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/bhaskar-acharjee/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhaskaracharjee" height="30" width="40" /></a>
 <a href="https://instagram.com/bhassssskar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="bhassssskar" height="30" width="40" /></a>
 <a href="https://youtube.com/@CorvasBhaskar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="corvasbhaskar" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/bha_s_kar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="bha_s_kar" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/bha_s_kar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="bha_s_kar" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/bhaskaracharjee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="bhaskaracharjee" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/bhaskaracharjee/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="bhaskaracharjee/profile" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/bha_s_kar" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="bha_s_kar" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/bha_s_kar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="bha_s_kar" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

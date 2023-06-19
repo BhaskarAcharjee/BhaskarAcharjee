@@ -1,29 +1,34 @@
-<h1 align="center">Hi<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I am BHASKAR ACHARJEE </h1>
-
+<h1 align="center"><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">Hi, I am BHASKAR ACHARJEE </h1>
 <h3 align="center">Learning & Exploring the WORLD of Code 👨‍💻</h3>
 <p align="center">
   <em>
-    Hello, I am Bhaskar Acharjee, a <b>pre-Final Year</b> undergraduate from <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India. <br>
-    <b>A passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> and a <b>Electronics & Communication Engineering Student</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">&nbsp </em> 
+   <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px"> Hello, I am a <b>passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> also highly motivated and diligent individual, pursuing  <b>Bachelor of Technology</b> degree in <b>Electronics and Communication</b> at <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India.
+  </em> 
   <br>
-  <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" /> <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b> <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="50" />
-
-<img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
+  <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="69">
+  <b><i align="center">Thought : "Life is full of choices…choose wisely!”</i></b>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhaskaracharjee&label=Profile%20views&color=0e75b6&style=flat" alt="bhaskaracharjee" /> 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee" alt="bhaskaracharjee" /></a> 
 <p align="left"> <a href="https://twitter.com/_bha_s_kar_" target="blank"><img src="https://img.shields.io/twitter/follow/_bha_s_kar_?logo=twitter&style=for-the-badge" alt="_bha_s_kar_" /></a> 
 
-- 🌱 I’m currently learning **C, C++, Python, Java**
+## Hello there! 👋
+🚀 In addition to my formal education in Electronics and Communication, I've ventured into diverse domains:
 
-- 💬 Ask me about **Current Technologies, Innovative Ideas**
+🔌 **Expertise:** I've mastered the art of connecting circuits and unraveling the mysteries of electronics. With proficiency in Java, Python, C, and C++, I'm ready to code my way through any challenge that comes my way.
 
-- 📫 How to reach me **bhaskaracharjee2002@gmail.com**
+📊 **Data Sorcery:** The realm of **data analysis and visualization** has always intrigued me. Armed with tools like **Power BI**, I transform raw data into meaningful insights, sculpting data pipelines and modeling information like a magician in the digital realm.
 
-- ⚡ Fun fact **Behind every successful programmer, there's a Boolean heart beating with 'true' and 'false' rhythm. Keep those bits pulsating!**
+📱 **Android Adventures:** I've embarked on exciting Android development expeditions, crafting innovative applications using Java, Android Studio, XML, JSON, and RESTful APIs. With every line of code, I strive to create user-friendly experiences that leave a lasting impression.
 
-<h3 align="left">Connect with me:</h3>
+💡 **Curiosity-driven Learning:** Beyond the classroom, I've delved into the depths of **data structures, algorithms analysis, database management, computer architecture**, and much more. I believe that knowledge knows no bounds, and my hunger for learning keeps me constantly exploring new technologies.
+
+🎓 **Leadership Ventures:** As a **Placement Coordinator**, I thrive in leadership roles, coordinating and guiding fellow students towards successful career paths. I bring my enthusiasm and dedication to every task, ensuring that everyone's potential is maximized.
+
+💻 **Developer's Arsenal:** My trusted companions on this coding odyssey are tools like **VS Code, Android Studio,** and the powerful **Google Cloud Platform**. With these weapons in hand, I'm ready to conquer any programming challenge that comes my way.
+
+<h3 align="left"><b>Connect me</b> on this journey as we push the boundaries of technology and transform ideas into reality></h3>
 <p align="left">
 <a href="https://twitter.com/_bha_s_kar_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_bha_s_kar_" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/bhaskar-acharjee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhaskaracharjee" height="30" width="40" /></a>

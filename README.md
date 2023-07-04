@@ -49,7 +49,8 @@
   </a>
 </p>
   <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskaracharjee&" alt="bhaskaracharjee" /></p>
-  <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee" alt="bhaskaracharjee" /></a></p>
+  
+  <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee&column=7&margin-w=15&margin-h=15" alt="bhaskaracharjee" /></a></p>
 </details>
 
 ---

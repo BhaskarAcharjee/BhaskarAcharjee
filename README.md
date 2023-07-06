@@ -1,10 +1,11 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="100px">
+  <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment=">
+<!--   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="100px"> -->
 <h1 align="center"> Hi, I am BHASKAR ACHARJEE </h1>
 <p align="center">
   <a href="https://github.com/Ratheshan03/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Electronics+Communication+Undergraduate;Android+Developer;Data+Analyst;Graphic+Designer;Aspiring+Learner&center=true&width=500&height=50"></a>
 </p>  
-<h3 align="center">Learning & Exploring the WORLD of Code 👨‍💻</h3>
+<h3 align="center">Learning & Exploring the WORLD of Code <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> </h3>
 <p align="center">
   <em>
    <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px"> This is me, a <b>passionate self-learner</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> also highly motivated and diligent individual, pursuing  <b>Bachelor of Technology</b> degree in <b>Electronics and Communication</b> at <a href="https://jgec.ac.in"> <b>Jalpaiguri Government Engineering College</b></a>, West Bengal, India.
@@ -14,11 +15,15 @@
  <i align="center">"Embracing the Open World of Technology: <b> Building, Innovating, and Contributing!"</i></b>
 
 ## Hello there! 👋
+
 🚀 In addition to my formal education in Electronics and Communication, I've ventured into diverse domains:
 
 🔌 **Expertise:** I've mastered the art of connecting circuits and unraveling the mysteries of electronics. With proficiency in Java, Python, C, and C++, I'm ready to code my way through any challenge that comes my way.
 
 📊 **Data Sorcery:** The realm of **data analysis and visualization** has always intrigued me. Armed with tools like **Power BI**, I transform raw data into meaningful insights, sculpting data pipelines and modeling information like a magician in the digital realm.
+
+<!-- Middle Image -->
+<img width="60%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
 📱 **Android Adventures:** I've embarked on exciting Android development expeditions, crafting innovative applications using Java, Android Studio, XML, JSON, and RESTful APIs. With every line of code, I strive to create user-friendly experiences that leave a lasting impression.
 
@@ -74,7 +79,7 @@
 ---
 
 <h4> Let's <b>Connect</b> and build something extraordinary together! <h4>
-</hr>
+
   <a href="https://twitter.com/_bha_s_kar_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_bha_s_kar_" height="30" width="40" /></a>
   <a href="https://www.linkedin.com/in/bhaskar-acharjee/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="bhaskaracharjee" height="30" width="40" /></a>
   <a href="https://instagram.com/bhassssskar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="bhassssskar" height="30" width="40" /></a>
@@ -83,9 +88,9 @@
   <a href="https://codeforces.com/profile/bha_s_kar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="bha_s_kar" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/bhaskaracharjee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="bhaskaracharjee" height="30" width="40" /></a>
   <a href="https://auth.geeksforgeeks.org/user/bhaskaracharjee/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="bhaskaracharjee/profile" height="30" width="40" /></a>
-</p>
   
-<br>
 
+
+<p align="right" > <a href="https://count.getloli.com/"><img width="20%" src="https://count.getloli.com/get/@:bhaskaracharjee"></a></p>
 <p align="right" > Created with 🖤 by <a href="https://github.com/BhaskarAcharjee">Bhaskar</a></p>
 <p align="right" > <img src="https://komarev.com/ghpvc/?username=bhaskaracharjee&label=Profile%20views&color=0e75b6&style=flat" alt="bhaskaracharjee"/> </p>

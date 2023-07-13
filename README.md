@@ -18,20 +18,16 @@
 
 🚀 In addition to my formal education in Electronics and Communication, I've ventured into diverse domains:
 
-🔌 **Expertise:** I've mastered the art of connecting circuits and unraveling the mysteries of electronics. With proficiency in Java, Python, C, and C++, I'm ready to code my way through any challenge that comes my way.
-
-📊 **Data Sorcery:** The realm of **data analysis and visualization** has always intrigued me. Armed with tools like **Power BI**, I transform raw data into meaningful insights, sculpting data pipelines and modeling information like a magician in the digital realm.
+- 🧪 **Multidisciplinary Explorer:** Mastering circuits, decoding data, and crafting captivating Android experiences.
 
 <!-- Middle Image -->
-<img width="60%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
-
-📱 **Android Adventures:** I've embarked on exciting Android development expeditions, crafting innovative applications using Java, Android Studio, XML, JSON, and RESTful APIs. With every line of code, I strive to create user-friendly experiences that leave a lasting impression.
-
-💡 **Curiosity-driven Learning:** Beyond the classroom, I've delved into the depths of **data structures, algorithms analysis, database management, computer architecture**, and much more. I believe that knowledge knows no bounds, and my hunger for learning keeps me constantly exploring new technologies.
-
-🎓 **Leadership Ventures:** As a **Placement Coordinator**, I thrive in leadership roles, coordinating and guiding fellow students towards successful career paths. I bring my enthusiasm and dedication to every task, ensuring that everyone's potential is maximized.
-
-💻 **Developer's Arsenal:** My trusted companions on this coding odyssey are tools like **VS Code, Android Studio,** and the powerful **Google Cloud Platform**. With these weapons in hand, I'm ready to conquer any programming challenge that comes my way.
+<img width="50%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
+  
+- 🌌 **Code Sorcerer:** Proficient in **Java, Python, C, and C++**, unraveling mysteries and conjuring innovative applications.
+- 📊 **Insight Alchemist:** Transforming raw data into meaningful insights using **Power BI** and precision sorcery.
+- 📱 **Android Maestro:** Crafting user-friendly experiences using **Java, Android Studio, XML, JSON, and RESTful APIs**.
+- 💡 **Curiosity Voyager:** Exploring **data structures, algorithms**, and pushing the boundaries of knowledge.
+- 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, and Google Cloud Platform** to conquer programming challenges.
 
 ---
 

@@ -23,11 +23,11 @@
 <!-- Middle Image -->
 <img width="50%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
   
-- 🌌 **Code Sorcerer:** Proficient in **Java, Python, C, and C++**, unraveling mysteries and conjuring innovative applications.
-- 📊 **Insight Alchemist:** Transforming raw data into meaningful insights using **Power BI** and precision sorcery.
+- 🌌 **Code Sorcerer:** Proficient in **Java, Python, C/C++, HTML/CSS, Javascript & SQL**.
+- 📊 **Insight Alchemist:** Transforming raw data into meaningful insights using **Power BI, Jupyter Notebook**.
 - 📱 **Android Maestro:** Crafting user-friendly experiences using **Java, Android Studio, XML, JSON, and RESTful APIs**.
 - 💡 **Curiosity Voyager:** Exploring **data structures, algorithms**, and pushing the boundaries of knowledge.
-- 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, and Google Cloud Platform** to conquer programming challenges.
+- 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, mySQL Workbench and Google Cloud Platform** to conquer programming challenges.
 
 ---
 

@@ -27,7 +27,7 @@
 - 📊 **Insight Alchemist:** Transforming raw data into meaningful insights using **Power BI, Jupyter Notebook**.
 - 📱 **Android Maestro:** Crafting user-friendly experiences using **Java, Android Studio, XML, JSON, and RESTful APIs**.
 - 💡 **Curiosity Voyager:** Exploring **data structures, algorithms**, and pushing the boundaries of knowledge.
-- 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, mySQL Workbench and Google Cloud Platform** to conquer programming challenges.
+- 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, mySQL Workbench, Docker Desktop and Google Cloud Platform** to conquer programming challenges.
 
 ---
 

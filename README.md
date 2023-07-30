@@ -61,7 +61,7 @@
 <br>
 <p align="center">
   <a href="https://github.com/BhaskarAcharjee">
-    <img align="center"  height="175px" src="https://github-readme-stats.vercel.app/api?username=bhaskaracharjee&show_icons=true&locale=en"/>
+    <img align="center" height="175px" src="https://github-readme-stats.vercel.app/api?username=bhaskaracharjee&show_icons=true&locale=en"/>
   </a>
   <a href="https://github.com/BhaskarAcharjee">
     <img align="center" height="175px"  src="https://github-readme-stats.vercel.app/api/top-langs?username=bhaskaracharjee&show_icons=true&locale=en&layout=compact" />

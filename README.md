@@ -1,5 +1,19 @@
 <p align="center">
-  <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment=">
+  <!--   <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment="> -->
+  <picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 <!--   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="100px"> -->
 <h1 align="center"> Hi, I am BHASKAR ACHARJEE </h1>
 <p align="center">
@@ -69,7 +83,8 @@
 </p>
   <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskaracharjee&" alt="bhaskaracharjee" /></p>
   
-  <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee&column=7&margin-w=15&margin-h=15" alt="bhaskaracharjee" /></a></p>
+  <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee&theme=juicyfresh" alt="bhaskaracharjee" /></a></p>
+  
 </details>
 
 ---

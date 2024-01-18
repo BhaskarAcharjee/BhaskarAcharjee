@@ -1,5 +1,5 @@
 <p align="center">
-  <!--   <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment="> -->
+<!--     <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment=">  -->
   <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -72,18 +72,41 @@
 <summary>
  📔 GitHub Stats:
 </summary>
+  
 <br>
 <p align="center">
-  <a href="https://github.com/BhaskarAcharjee">
-    <img align="center" height="175px" src="https://github-readme-stats.vercel.app/api?username=bhaskaracharjee&show_icons=true&locale=en"/>
-  </a>
-  <a href="https://github.com/BhaskarAcharjee">
-    <img align="center" height="175px"  src="https://github-readme-stats.vercel.app/api/top-langs?username=bhaskaracharjee&show_icons=true&locale=en&layout=compact" />
-  </a>
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=BhaskarAcharjee&theme=tokyonight&show_icons=true&locale=en&rank_icon=github"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=BhaskarAcharjee&theme=vue&show_icons=true&locale=en&rank_icon=github"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img align="center" height="175px" src="https://github-readme-stats.vercel.app/api?username=BhaskarAcharjee&theme=tokyonight&show_icons=true&locale=en&rank_icon=github"/>
+  </picture>
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=BhaskarAcharjee&show_icons=true&locale=en&layout=compact&langs_count=10&theme=tokyonight"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=BhaskarAcharjee&show_icons=true&locale=en&layout=compact&langs_count=10&theme=vue"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img align="center" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs?username=BhaskarAcharjee&show_icons=true&locale=en&layout=compact&langs_count=10&theme=tokyonight" />
+  </picture>
 </p>
-  <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskaracharjee&" alt="bhaskaracharjee" /></p>
+  <p align="center">
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskaracharjee&theme=tokyonight&" alt="bhaskaracharjee" />
+  </p>
   
-  <p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee&theme=juicyfresh" alt="bhaskaracharjee" /></a></p>
+  <p align="center">
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
+      <img src="https://github-profile-trophy.vercel.app/?username=bhaskaracharjee&theme=juicyfresh" alt="bhaskaracharjee" />
+    </a>
+  </p>
   
 </details>
 

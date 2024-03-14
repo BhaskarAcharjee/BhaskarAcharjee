@@ -98,11 +98,14 @@
     <img align="center" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs?username=BhaskarAcharjee&show_icons=true&locale=en&layout=compact&langs_count=10&theme=tokyonight" />
   </picture>
 </p>
+  
+  <p align="center">
+<!--     <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Bhaskar&theme=tokyonight&" alt="bhaskaracharjee" /> -->
+    <img align="center" width="580" src="https://github-readme-stats.vercel.app/api/wakatime?username=Bhaskar&theme=react&layout=compact" />
+  </p>
+  
   <p align="center">
     <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskaracharjee&theme=tokyonight&" alt="bhaskaracharjee" />
-  </p>
-  <p align="center">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Bhaskar&theme=tokyonight&" alt="bhaskaracharjee" />
   </p>
   
   <p align="center">

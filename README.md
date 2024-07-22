@@ -38,7 +38,7 @@
 <img width="50%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
   
 - 🌌 **Code Sorcerer:** Proficient in **Java, Python, C/C++, HTML/CSS, Javascript & SQL**.
-- 📊 **Insight Alchemist:** Transforming raw data into meaningful insights using **Power BI, Jupyter Notebook**.
+- 📊 **Insight Alchemist:** Transforming raw data into meaningful insights using **Power BI, Advanced Excel, Jupyter Notebook**.
 - 📱 **Android Maestro:** Crafting user-friendly experiences using **Java, Android Studio, XML, JSON, and RESTful APIs**.
 - 💡 **Curiosity Voyager:** Exploring **data structures, algorithms**, and pushing the boundaries of knowledge.
 - 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, mySQL Workbench, Docker Desktop and Google Cloud Platform** to conquer programming challenges.

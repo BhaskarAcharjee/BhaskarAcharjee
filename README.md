@@ -129,8 +129,14 @@
   <a href="https://www.leetcode.com/bhaskaracharjee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="bhaskaracharjee" height="30" width="40" /></a>
   <a href="https://auth.geeksforgeeks.org/user/bhaskaracharjee/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="bhaskaracharjee/profile" height="30" width="40" /></a>
   
+---
 
-
-<p align="right" > <a href="https://count.getloli.com/"><img width="20%" src="https://count.getloli.com/get/@:bhaskaracharjee"></a></p>
-<p align="right" > Created with 🖤 by <a href="https://github.com/BhaskarAcharjee">Bhaskar</a></p>
-<p align="right" > <img src="https://komarev.com/ghpvc/?username=bhaskaracharjee&label=Profile%20views&color=0e75b6&style=flat" alt="bhaskaracharjee"/> </p>
+<p align="center">
+  <a href="https://count.getloli.com/"><img src="https://count.getloli.com/get/@:bhaskaracharjee?theme=rule34" alt="Profile Counter" /></a>
+</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bhaskaracharjee&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
+</p>
+<p align="center">  
+  Created with 🖤 by <a href="https://github.com/BhaskarAcharjee">Bhaskar Acharjee</a>  
+</p>

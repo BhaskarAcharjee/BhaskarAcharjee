@@ -1,22 +1,6 @@
 <p align="center">
-
-<!-- -------------------------------------- Snake Contribution -------------------------------------- -->
-<!--     <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment=">  -->
-  <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-</picture>
-<!--   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="100px"> -->
+  <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" height="200"/>
+</p>
 
 
 <!-- -------------------------------------- About Short Info -------------------------------------- -->
@@ -39,7 +23,7 @@
  <!-- -------------------------------------- About Description -------------------------------------- -->
 
 
-## Hello there! 👋
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me
 
 🚀 In addition to my formal education in Electronics and Communication, I've ventured into diverse domains:
 
@@ -54,11 +38,10 @@
 - 💡 **Curiosity Voyager:** Exploring **data structures, algorithms**, and pushing the boundaries of knowledge.
 - 💻 **Tech Arsenal Champion:** Wielding **VS Code, Android Studio, mySQL Workbench, Docker Desktop and Google Cloud Platform** to conquer programming challenges.
 
----
 
 <!-- -------------------------------------- languages & tools -------------------------------------- -->
 
-<h3 align="left">Languages and Tools:</h3>
+## <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/IDEs.gif?raw=true" width = 50px>  </picture> Language & Tools
 <div>
   <p style="display: inline-block;" align="center">
     <kbd>
@@ -147,12 +130,6 @@
       <img width="30" src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" alt="Postman" title="Postman"/>
       <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"  alt="jupiter" title="Jupiter"/>
   </kbd>
-<!--      <kbd>l
-      <kbd>Game Development</kbd>
-      <br>
-      <br>
-      <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="unity" title="Unity Engine"/>
-    </kbd> -->
   </p>
 </div>
 
@@ -162,7 +139,7 @@
 
 <details open="">
 <summary>
- 📔 GitHub Stats:
+<h2><picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 50px>  </picture> Github Stats</h2>
 </summary>
   
 <br>
@@ -225,6 +202,19 @@
 <a href="https://auth.geeksforgeeks.org/user/bhaskaracharjee/profile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="bhaskaracharjee/profile" height="30" width="40" /></a>
 
 ---
+
+<!-- -------------------------------------- Snake Contribution -------------------------------------- -->
+
+<!-- Bhaskar name in contribution graph -->
+<!--     <img alt="header" src="https://typograssy.deno.dev/api?text=Bhaskar&frame=none&comment=">  -->
+
+#### 🐍 Don't mind the Python snake, it's just debugging my contribution graph.
+  <picture>
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 
 <!-- -------------------------------------- Profile View footer -------------------------------------- -->

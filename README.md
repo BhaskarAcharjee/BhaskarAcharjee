@@ -169,7 +169,7 @@
 </p>
   
   <p align="center">
-    <img align="center" width="580" src="https://github-stats-extended.vercel.app/api/wakatime?username=Bhaskar&theme=react&layout=compact" />
+    <img align="center" width="580" src="https://github-stats-extended.vercel.app/api/wakatime?username=Bhaskar&layout=compact&langs_count=10&theme=highcontrast" />
   </p>
   
   <p align="center">

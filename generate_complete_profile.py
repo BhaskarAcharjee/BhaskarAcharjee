@@ -908,6 +908,51 @@ def create_all_assets():
         f.write(wakatime_svg)
     print("[OK] Built assets/wakatime-telemetry.svg")
 
+    wakatime_header_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="100%" height="100%">
+<defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .heading { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+    @keyframes pulseLive {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .pulse-dot {
+      animation: pulseLive 2s infinite ease-in-out;
+      transform-origin: 1146px 28px;
+    }
+  </style>
+  <linearGradient id="wkh-hairline" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity=".7"/>
+    <stop offset="50%" stop-color="#1f3760" stop-opacity=".3"/>
+    <stop offset="100%" stop-color="#ff354f" stop-opacity=".5"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="130" rx="16" fill="#070b16" stroke="url(#wkh-hairline)" stroke-width="1.8"/>
+
+<!-- Header bar -->
+<path d="M36 46 L1164 46" fill="none" stroke="#223149" stroke-width="1.4"/>
+<text x="38" y="30" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">04 / DEVELOPMENT TELEMETRY</text>
+<text x="360" y="30" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">WAKATIME CODING METRICS</text>
+
+<!-- Live API Indicator -->
+<rect x="910" y="16" width="248" height="24" rx="5" fill="#112239" stroke="#1f3d65" stroke-width="1.2"/>
+<text x="924" y="32" font-size="9.5" fill="#38bdf8" class="mono" font-weight="700">LIVE SYNC // WAKATIME @BHASKAR</text>
+<circle cx="1144" cy="28" r="4" fill="#38bdf8" class="pulse-dot"/>
+
+<!-- Headline & Subtitle -->
+<text x="38" y="86" font-size="28" fill="#f2f5ff" class="heading">MEASURED DISCIPLINE. CODING VELOCITY.</text>
+<text x="38" y="108" font-size="11.5" fill="#85a2c7" class="mono">2,500+ TRACKED CODING HOURS · KOTLIN · JAVA · JAVASCRIPT · CLOUD &amp; SYSTEMS</text>
+
+<!-- Decorative Cyber Chevrons -->
+<path d="M1110 74l8 0 -6 16h-8Z" fill="#247bff"/>
+<path d="M1122 74l8 0 -6 16h-8Z" fill="#247bff"/>
+<path d="M1134 74l8 0 -6 16h-8Z" fill="#ff354f"/>
+</svg>'''
+    with open("assets/wakatime-header.svg", "w", encoding="utf-8") as f:
+        f.write(wakatime_header_svg)
+    print("[OK] Built assets/wakatime-header.svg")
+
     # =========================================================================
     # 8. QUICK-NAV.SVG (Interactive Top Cyber Navigation HUD)
     # =========================================================================

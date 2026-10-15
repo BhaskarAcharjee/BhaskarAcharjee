@@ -12,6 +12,14 @@
     .pulsing-bar {
       animation: pulseBar 3s infinite ease-in-out;
     }
+    @keyframes pulseLive {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .pulse-dot {
+      animation: pulseLive 2s infinite ease-in-out;
+      transform-origin: 1146px 33px;
+    }
   </style>
 
   <linearGradient id="waka-hairline" x1="0" y1="0" x2="1" y2="1">
@@ -31,32 +39,32 @@
 <!-- Header -->
 <path d="M42 56 L1158 56" fill="none" stroke="#223149" stroke-width="1.5"/>
 <text x="44" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">04 / DEVELOPMENT TELEMETRY</text>
-<text x="440" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">WAKATIME TIME MATRIX</text>
+<text x="360" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">WAKATIME TIME MATRIX</text>
 
 <!-- Live Badge -->
-<rect x="990" y="20" width="160" height="26" rx="6" fill="#132a47"/>
-<text x="1002" y="37" font-size="10" fill="#38bdf8" class="mono">LIVE METRICS // SYNCED</text>
-<circle cx="1136" cy="33" r="4" fill="#38bdf8"/>
+<rect x="910" y="20" width="248" height="26" rx="6" fill="#132a47" stroke="#1f3d65" stroke-width="1.2"/>
+<text x="924" y="37" font-size="10" fill="#38bdf8" class="mono" font-weight="700">LIVE SYNC // WAKATIME @BHASKAR</text>
+<circle cx="1144" cy="33" r="4" fill="#38bdf8" class="pulse-dot"/>
 
 <text x="44" y="100" font-size="32" fill="#f2f5ff" class="heading">MEASURED DISCIPLINE. CODING VELOCITY.</text>
-<text x="44" y="122" font-size="11" fill="#7a96bb" class="mono" letter-spacing="1.4">TRACKED HOURS ACROSS ENTERPRISE JAVA, ANDROID &amp; OPEN SOURCE</text>
+<text x="44" y="122" font-size="11" fill="#7a96bb" class="mono" letter-spacing="1.4">2,500+ TRACKED HOURS ACROSS KOTLIN, JAVASCRIPT, JAVA &amp; ANDROID ARCHITECTURE</text>
 
 <!-- Left 3 Key Metric Counters -->
 <g transform="translate(44, 150)">
   <!-- Counter 1: Total Hours -->
   <g transform="translate(0, 0)">
     <rect width="210" height="105" rx="10" fill="#0d182b" stroke="#25436a" stroke-width="1.4"/>
-    <text x="18" y="28" font-size="9.5" fill="#7d99be" class="mono">WEEKLY CODING TIME</text>
-    <text x="18" y="72" font-size="38" fill="#38bdf8" class="heading">46.5<tspan font-size="18" fill="#7ba5d6">h</tspan></text>
-    <text x="18" y="94" font-size="9" fill="#58779c" class="mono">ROLLING 7-DAY AVERAGE</text>
+    <text x="18" y="28" font-size="9.5" fill="#7d99be" class="mono">TOTAL TRACKED CODE</text>
+    <text x="18" y="72" font-size="36" fill="#38bdf8" class="heading">2,500<tspan font-size="18" fill="#7ba5d6">h+</tspan></text>
+    <text x="18" y="94" font-size="9" fill="#58779c" class="mono">ALL-TIME VERIFIED LOG</text>
   </g>
 
   <!-- Counter 2: Daily Velocity -->
   <g transform="translate(0, 120)">
     <rect width="210" height="105" rx="10" fill="#0d182b" stroke="#25436a" stroke-width="1.4"/>
-    <text x="18" y="28" font-size="9.5" fill="#7d99be" class="mono">DAILY VELOCITY</text>
-    <text x="18" y="72" font-size="38" fill="#ff354f" class="heading">6.6<tspan font-size="18" fill="#ff7a8f">h/d</tspan></text>
-    <text x="18" y="94" font-size="9" fill="#58779c" class="mono">ACTIVE DEV DAYS</text>
+    <text x="18" y="28" font-size="9.5" fill="#7d99be" class="mono">PRIMARY STACK</text>
+    <text x="18" y="72" font-size="34" fill="#ff354f" class="heading">2,122<tspan font-size="18" fill="#ff7a8f">h</tspan></text>
+    <text x="18" y="94" font-size="9" fill="#58779c" class="mono">KOTLIN / ANDROID APPS</text>
   </g>
 </g>
 
@@ -64,46 +72,46 @@
 <g transform="translate(285, 150)">
   <rect width="870" height="225" rx="12" fill="#0b1424" stroke="#203859" stroke-width="1.4"/>
 
-  <text x="28" y="32" font-size="10.5" fill="#7b97bd" class="mono" letter-spacing="1.4">LANGUAGE &amp; STACK BREAKDOWN // TELEMETRY</text>
+  <text x="28" y="32" font-size="10.5" fill="#7b97bd" class="mono" letter-spacing="1.4">LANGUAGE &amp; STACK BREAKDOWN // VERIFIED TELEMETRY</text>
 
-  <!-- Bar 1: Java (42%) -->
+  <!-- Bar 1: Kotlin (83.0%) -->
   <g transform="translate(28, 48)">
-    <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">Java</text>
-    <text x="50" y="0" font-size="12" fill="#7a97bd" class="mono">(Enterprise Microservices &amp; Systems)</text>
-    <text x="760" y="0" font-size="14" fill="#38bdf8" class="heading">42.4%</text>
-    <rect y="10" width="814" height="12" rx="4" fill="#13253d"/>
-    <rect y="10" width="345" height="12" rx="4" fill="#247bff" class="pulsing-bar"/>
-  </g>
-
-  <!-- Bar 2: Kotlin (28%) -->
-  <g transform="translate(28, 92)">
     <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">Kotlin</text>
-    <text x="60" y="0" font-size="12" fill="#7a97bd" class="mono">(Native Android Apps &amp; Compose)</text>
-    <text x="760" y="0" font-size="14" fill="#ff354f" class="heading">28.1%</text>
+    <text x="60" y="0" font-size="12" fill="#7a97bd" class="mono">(Android Architecture, Jetpack &amp; Apps)</text>
+    <text x="740" y="0" font-size="14" fill="#ff354f" class="heading">2,122 hrs · 83.0%</text>
     <rect y="10" width="814" height="12" rx="4" fill="#13253d"/>
-    <rect y="10" width="228" height="12" rx="4" fill="#ff354f"/>
+    <rect y="10" width="675" height="12" rx="4" fill="#ff354f" class="pulsing-bar"/>
   </g>
 
-  <!-- Bar 3: Python (16%) -->
+  <!-- Bar 2: JavaScript (8.3%) -->
+  <g transform="translate(28, 92)">
+    <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">JavaScript</text>
+    <text x="90" y="0" font-size="12" fill="#7a97bd" class="mono">(Fullstack &amp; Interactive Web Engines)</text>
+    <text x="740" y="0" font-size="14" fill="#38bdf8" class="heading">211 hrs · 8.3%</text>
+    <rect y="10" width="814" height="12" rx="4" fill="#13253d"/>
+    <rect y="10" width="168" height="12" rx="4" fill="#38bdf8"/>
+  </g>
+
+  <!-- Bar 3: CSS & Web (3.1%) -->
   <g transform="translate(28, 136)">
-    <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">Python</text>
-    <text x="65" y="0" font-size="12" fill="#7a97bd" class="mono">(AI Automation &amp; Data Insights)</text>
-    <text x="760" y="0" font-size="14" fill="#38bdf8" class="heading">15.8%</text>
+    <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">CSS / UI</text>
+    <text x="70" y="0" font-size="12" fill="#7a97bd" class="mono">(3D Room, Cyber Aesthetics &amp; Animations)</text>
+    <text x="740" y="0" font-size="14" fill="#c084fc" class="heading">80 hrs · 3.1%</text>
     <rect y="10" width="814" height="12" rx="4" fill="#13253d"/>
-    <rect y="10" width="128" height="12" rx="4" fill="#38bdf8"/>
+    <rect y="10" width="70" height="12" rx="4" fill="#c084fc"/>
   </g>
 
-  <!-- Bar 4: Three.js & Web (14%) -->
+  <!-- Bar 4: XML & Layouts (2.7%) -->
   <g transform="translate(28, 180)">
-    <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">Three.js / Web</text>
-    <text x="120" y="0" font-size="12" fill="#7a97bd" class="mono">(3D Simulations &amp; WebGL)</text>
-    <text x="760" y="0" font-size="14" fill="#c084fc" class="heading">13.7%</text>
+    <text x="0" y="0" font-size="13" fill="#ffffff" class="heading">XML &amp; Layouts</text>
+    <text x="120" y="0" font-size="12" fill="#7a97bd" class="mono">(Android View System &amp; Manifests)</text>
+    <text x="740" y="0" font-size="14" fill="#247bff" class="heading">68 hrs · 2.7%</text>
     <rect y="10" width="814" height="12" rx="4" fill="#13253d"/>
-    <rect y="10" width="111" height="12" rx="4" fill="#c084fc"/>
+    <rect y="10" width="55" height="12" rx="4" fill="#247bff"/>
   </g>
 </g>
 
 <!-- Footer -->
 <text x="44" y="415" font-size="11" fill="#6682a6" class="mono">CONSISTENCY OVER INTENSITY // VERIFIED WAKATIME TELEMETRY</text>
-<text x="960" y="415" font-size="11" fill="#38bdf8" class="mono">SYNCED VIA WAKATIME API</text>
+<text x="940" y="415" font-size="11" fill="#38bdf8" class="mono">SYNCED VIA WAKATIME @BHASKAR</text>
 </svg>

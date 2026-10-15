@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#080c16"/>
+    </linearGradient>
+
+    <!-- Glowing Blobs -->
+    <radialGradient id="glow-cyan" cx="20%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-indigo" cx="80%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-purple" cx="50%" cy="90%" r="45%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Text Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#7dd3fc"/>
+      <stop offset="60%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <!-- Capsule Fill -->
+    <linearGradient id="capsule-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.04" stroke-width="1"/>
+      <circle cx="40" cy="0" r="1.5" fill="#38bdf8" fill-opacity="0.08"/>
+    </pattern>
+
+    <!-- Pulsing Green Dot Keyframe -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(1.15); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      .pulsing-dot {
+        animation: pulse 2.5s infinite ease-in-out;
+        transform-origin: 322px 342px;
+      }
+      .floating-art {
+        animation: float 4s infinite ease-in-out;
+      }
+      .title-text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: -1.5px;
+      }
+      .mono-text {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+      .sans-text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas & Border -->
+  <rect width="1200" height="420" rx="20" fill="url(#bg-grad)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+
+  <!-- Ambient Light Orbs -->
+  <rect width="1200" height="420" rx="20" fill="url(#glow-cyan)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#glow-indigo)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#glow-purple)"/>
+
+  <!-- Precision Border Stroke -->
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="19" fill="none" stroke="url(#border-grad)" stroke-width="1.8"/>
+
+  <!-- Top Badges / Tags Strip -->
+  <g transform="translate(60, 48)">
+    <!-- Badge 1: TCS Java Backend -->
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="url(#capsule-grad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#38bdf8"/>
+    <text x="28" y="20.5" class="mono-text" font-size="12" font-weight="600" fill="#bae6fd" letter-spacing="0.5">JAVA BACKEND @ TCS</text>
+
+    <!-- Badge 2: App Developer -->
+    <rect x="232" y="0" width="215" height="32" rx="16" fill="url(#capsule-grad)" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="248" cy="16" r="4.5" fill="#818cf8"/>
+    <text x="260" y="20.5" class="mono-text" font-size="12" font-weight="600" fill="#c7d2fe" letter-spacing="0.5">5+ PLAY STORE APPS</text>
+
+    <!-- Badge 3: JGEC ECE Alum -->
+    <rect x="459" y="0" width="180" height="32" rx="16" fill="url(#capsule-grad)" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="475" cy="16" r="4.5" fill="#c084fc"/>
+    <text x="487" y="20.5" class="mono-text" font-size="12" font-weight="600" fill="#e9d5ff" letter-spacing="0.5">B.TECH ECE • JGEC</text>
+
+    <!-- Badge 4: Location -->
+    <rect x="651" y="0" width="150" height="32" rx="16" fill="url(#capsule-grad)" stroke="#34d399" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="667" cy="16" r="4.5" fill="#34d399"/>
+    <text x="679" y="20.5" class="mono-text" font-size="12" font-weight="600" fill="#a7f3d0" letter-spacing="0.5">KOLKATA, IN</text>
+  </g>
+
+  <!-- Left Main Content Area -->
+  <g transform="translate(60, 120)">
+    <!-- Subtitle Pre-heading -->
+    <text x="0" y="24" class="mono-text" font-size="15" font-weight="600" fill="#38bdf8" letter-spacing="2.5">
+      // HELLO WORLD, WELCOME TO MY PORTFOLIO
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="86" class="title-text" font-size="56" fill="url(#title-grad)">
+      BHASKAR ACHARJEE
+    </text>
+
+    <!-- Catchy Role & Description -->
+    <text x="0" y="130" class="sans-text" font-size="20" font-weight="500" fill="#cbd5e1" letter-spacing="0.2">
+      Software Engineer • Java Backend Specialist • Mobile App Craftsman
+    </text>
+    
+    <text x="0" y="160" class="sans-text" font-size="15" font-weight="400" fill="#94a3b8">
+      Building robust distributed backend architectures &amp; reactive Android applications with passion.
+    </text>
+
+    <!-- Tech Stack Pill Ribbon -->
+    <g transform="translate(0, 195)">
+      <!-- Java -->
+      <rect x="0" y="0" width="82" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="41" y="18" class="sans-text" font-size="12" font-weight="600" fill="#7dd3fc" text-anchor="middle">Java</text>
+
+      <!-- Spring -->
+      <rect x="90" y="0" width="112" height="28" rx="14" fill="#1e293b" stroke="#4ade80" stroke-opacity="0.4"/>
+      <text x="146" y="18" class="sans-text" font-size="12" font-weight="600" fill="#86efac" text-anchor="middle">Spring Boot</text>
+
+      <!-- Kotlin -->
+      <rect x="210" y="0" width="94" height="28" rx="14" fill="#1e293b" stroke="#a855f7" stroke-opacity="0.4"/>
+      <text x="257" y="18" class="sans-text" font-size="12" font-weight="600" fill="#d8b4fe" text-anchor="middle">Kotlin</text>
+
+      <!-- Android -->
+      <rect x="312" y="0" width="138" height="28" rx="14" fill="#1e293b" stroke="#34d399" stroke-opacity="0.4"/>
+      <text x="381" y="18" class="sans-text" font-size="12" font-weight="600" fill="#6ee7b7" text-anchor="middle">Jetpack Compose</text>
+
+      <!-- Microservices -->
+      <rect x="458" y="0" width="128" height="28" rx="14" fill="#1e293b" stroke="#f472b6" stroke-opacity="0.4"/>
+      <text x="522" y="18" class="sans-text" font-size="12" font-weight="600" fill="#fbcfe8" text-anchor="middle">RESTful APIs</text>
+
+      <!-- Cloud/Docker -->
+      <rect x="594" y="0" width="122" height="28" rx="14" fill="#1e293b" stroke="#60a5fa" stroke-opacity="0.4"/>
+      <text x="655" y="18" class="sans-text" font-size="12" font-weight="600" fill="#93c5fd" text-anchor="middle">Docker &amp; Cloud</text>
+    </g>
+  </g>
+
+  <!-- Right Floating Geometric Tech Card / Visual Element -->
+  <g transform="translate(865, 95)" class="floating-art">
+    <!-- Card Background with Glassmorphism -->
+    <rect width="275" height="235" rx="18" fill="#0f172a" fill-opacity="0.75" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.5"/>
+    
+    <!-- Window Dots Header -->
+    <circle cx="24" cy="24" r="5" fill="#ef4444" fill-opacity="0.8"/>
+    <circle cx="40" cy="24" r="5" fill="#f59e0b" fill-opacity="0.8"/>
+    <circle cx="56" cy="24" r="5" fill="#10b981" fill-opacity="0.8"/>
+    <text x="80" y="28" class="mono-text" font-size="11" fill="#64748b">bhaskar_acharjee.json</text>
+    <line x1="0" y1="42" x2="275" y2="42" stroke="#334155" stroke-opacity="0.6" stroke-width="1"/>
+
+    <!-- Code Block in Terminal Card -->
+    <g transform="translate(18, 62)" class="mono-text" font-size="12">
+      <text y="0" fill="#94a3b8">{</text>
+      <text y="22" fill="#7dd3fc" x="14">"status"<tspan fill="#94a3b8">: </tspan><tspan fill="#34d399">"Innovating"</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text y="44" fill="#7dd3fc" x="14">"company"<tspan fill="#94a3b8">: </tspan><tspan fill="#fbcfe8">"TCS"</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text y="66" fill="#7dd3fc" x="14">"playStoreApps"<tspan fill="#94a3b8">: </tspan><tspan fill="#fcd34d">5</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text y="88" fill="#7dd3fc" x="14">"core"<tspan fill="#94a3b8">: [</tspan><tspan fill="#a5b4fc">"Java"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#a5b4fc">"Kotlin"</tspan><tspan fill="#94a3b8">],</tspan></text>
+      <text y="110" fill="#7dd3fc" x="14">"passion"<tspan fill="#94a3b8">: </tspan><tspan fill="#38bdf8">"Open Source"</tspan></text>
+      <text y="132" fill="#94a3b8">}</text>
+    </g>
+
+    <!-- Mini Bottom Status Bar -->
+    <rect x="18" y="196" width="239" height="26" rx="13" fill="#1e293b" fill-opacity="0.9" stroke="#334155" stroke-width="1"/>
+    <circle cx="34" cy="209" r="4" fill="#10b981" class="pulsing-dot"/>
+    <text x="46" y="213" class="mono-text" font-size="10.5" font-weight="600" fill="#86efac">Open for collaborations</text>
+  </g>
+
+  <!-- Bottom Accent Gradient Line -->
+  <line x1="60" y1="390" x2="1140" y2="390" stroke="url(#border-grad)" stroke-width="1" stroke-opacity="0.4"/>
+</svg>

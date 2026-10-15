@@ -6,9 +6,9 @@
 <div><a href="https://twitter.com/_bha_s_kar_" target="_blank"><img src="assets/nav-twitter.svg" width="19.5%" height="75" alt="X / Twitter"></a><a href="https://www.linkedin.com/in/bhaskar-acharjee/" target="_blank"><img src="assets/nav-linkedin.svg" width="19.5%" height="75" alt="LinkedIn"></a><a href="https://corvas.in" target="_blank"><img src="assets/nav-logo.svg" width="22%" height="75" alt="Logo"></a><a href="https://www.youtube.com/@CorvasBhaskar" target="_blank"><img src="assets/nav-youtube.svg" width="19.5%" height="75" alt="YouTube"></a><a href="https://corvas.in" target="_blank"><img src="assets/nav-portfolio.svg" width="19.5%" height="75" alt="Portfolio"></a></div>
 
 <!-- ========================================================================= -->
-<!-- 💬 HERO: THUMBS UP DEVELOPER & NEON SPEECH BUBBLE                        -->
+<!-- 💬 HERO: BHASKAR & NEON SPEECH BUBBLE                                     -->
 <!-- ========================================================================= -->
-<div><img src="assets/hero.svg" width="100%" alt="Bhaskar with thumbs up in dark mode with a speech bubble"></div>
+<div><img src="assets/hero.jpg" width="100%" alt="Bhaskar with speech bubble in dark mode"></div>
 
 <!-- ========================================================================= -->
 <!-- 🎛️ 4-QUADRANT SHOWCASE GRID (POINTING DEVELOPER IN CENTER)                -->

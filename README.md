@@ -104,7 +104,7 @@
 
 <!-- ================= 07 / BUILDER CREDENTIALS ================= -->
 <div id="builder-credentials" align="center">
-  <img src="./assets/id-dashboard.svg" width="100%" alt="Bhaskar's Builder Credentials — Real Work. Real Impact." />
+  <img src="./assets/id-dashboard.svg?v=2" width="100%" alt="Bhaskar's Builder Credentials — Real Work. Real Impact." />
 </div>
 
 <p align="center">

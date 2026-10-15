@@ -576,10 +576,15 @@ def create_all_assets():
     <text x="24" y="86" font-size="12" fill="#88a9d3" class="mono">Architecting microservices &amp; publishing production Android apps.</text>
   </g>
 </g>
-</svg>'''
-    with open("assets/id-dashboard.svg", "w", encoding="utf-8") as f:
-        f.write(dashboard_svg)
-    print("[OK] Built assets/id-dashboard.svg")
+    # =========================================================================
+    # 4. ID-DASHBOARD.SVG (Builder Credentials: Physical Lanyard Pass + Real Impact HUD)
+    # =========================================================================
+    if os.path.exists("assets/id-dashboard.svg") and os.path.getsize("assets/id-dashboard.svg") > 50000:
+        print("[OK] Preserved animated assets/id-dashboard.svg")
+    else:
+        with open("assets/id-dashboard.svg", "w", encoding="utf-8") as f:
+            f.write(dashboard_svg)
+        print("[OK] Built assets/id-dashboard.svg")
 
     # =========================================================================
     # 5. CONNECT.SVG (Exact Ug0510 4-Card Contact Matrix + Creator Image)

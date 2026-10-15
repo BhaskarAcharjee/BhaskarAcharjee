@@ -903,10 +903,12 @@ def create_all_assets():
 <!-- Footer -->
 <text x="44" y="415" font-size="11" fill="#6682a6" class="mono">CONSISTENCY OVER INTENSITY // VERIFIED WAKATIME TELEMETRY</text>
 <text x="960" y="415" font-size="11" fill="#38bdf8" class="mono">SYNCED VIA WAKATIME API</text>
-</svg>'''
-    with open("assets/wakatime-telemetry.svg", "w", encoding="utf-8") as f:
-        f.write(wakatime_svg)
-    print("[OK] Built assets/wakatime-telemetry.svg")
+    if os.path.exists("assets/wakatime-telemetry.svg") and os.path.getsize("assets/wakatime-telemetry.svg") > 5000:
+        print("[OK] Preserved verified assets/wakatime-telemetry.svg")
+    else:
+        with open("assets/wakatime-telemetry.svg", "w", encoding="utf-8") as f:
+            f.write(wakatime_svg)
+        print("[OK] Built assets/wakatime-telemetry.svg")
 
     wakatime_header_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="100%" height="100%">
 <defs>

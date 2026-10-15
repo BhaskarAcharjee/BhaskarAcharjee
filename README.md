@@ -76,17 +76,9 @@
 
 <!-- ================= 04 / WAKATIME TELEMETRY MATRIX ================= -->
 <div id="wakatime-telemetry" align="center">
-  <img src="./assets/wakatime-header.svg" width="100%" alt="WakaTime Development Telemetry Header" />
-
-  <p align="center">
-    <a href="https://wakatime.com/@Bhaskar" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Bhaskar&theme=transparent&bg_color=070b16&title_color=38bdf8&text_color=9db2d1&icon_color=ff354f&border_color=223b5e&border_radius=12&langs_count=8" width="49.2%" alt="Bhaskar's Live WakaTime Telemetry Stats" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/BhaskarAcharjee" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhaskarAcharjee&theme=transparent&bg_color=070b16&title_color=38bdf8&text_color=9db2d1&icon_color=ff354f&border_color=223b5e&border_radius=12&langs_count=6" width="49.2%" alt="Bhaskar's Top Languages Breakdown" />
-    </a>
-  </p>
+  <a href="https://wakatime.com/@Bhaskar" target="_blank">
+    <img src="./assets/wakatime-telemetry.svg?v=3" width="100%" alt="Bhaskar's WakaTime Development Telemetry Matrix — 2,500+ Tracked Hours" />
+  </a>
 </div>
 
 <p align="center">

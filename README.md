@@ -18,7 +18,7 @@
 
 <!-- ================= 01 / HERO ================= -->
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Hi, I'm Bhaskar Acharjee — Java Backend Developer at TCS. Building scalable enterprise systems and published 5+ Google Play apps." />
+  <img src="./assets/hero.svg?v=4" width="100%" alt="Hi, I'm Bhaskar Acharjee — Android &amp; Kotlin Developer • Java @ TCS. Building native Android apps (5+ on Google Play) &amp; enterprise systems." />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 <!-- ================= 02 / THE BLUEPRINT ================= -->
 <div id="the-blueprint" align="center">
-  <img src="./assets/about-life.svg" width="100%" alt="The Blueprint: From Thought to Thing &amp; Life Outside the Commit" />
+  <img src="./assets/about-life.svg?v=4" width="100%" alt="The Blueprint: From Thought to Thing &amp; Life Outside the Commit" />
 </div>
 
 <p align="center">
@@ -36,20 +36,21 @@
 
 <!-- ================= 03 / THE ENGINE ROOM ================= -->
 <div id="engine-room" align="center">
-  <img src="./assets/stack.svg?v=2" width="100%" alt="My Engine Room: Tools Change. Curiosity Doesn't." />
+  <img src="./assets/stack.svg?v=4" width="100%" alt="My Engine Room: Tools Change. Curiosity Doesn't." />
 </div>
 
 <!-- Interactive Tech Arsenal Badges -->
 <p align="center">
+  <a href="https://kotlinlang.org/" target="_blank"><img src="https://img.shields.io/badge/Kotlin-070b16?style=for-the-badge&logo=kotlin&logoColor=7f52ff" alt="Kotlin" /></a>
+  <a href="https://developer.android.com/" target="_blank"><img src="https://img.shields.io/badge/Android_SDK-070b16?style=for-the-badge&logo=android&logoColor=3ddc84" alt="Android SDK" /></a>
+  <a href="https://developer.android.com/jetpack/compose" target="_blank"><img src="https://img.shields.io/badge/Jetpack_Compose-070b16?style=for-the-badge&logo=jetpackcompose&logoColor=4285f4" alt="Jetpack Compose" /></a>
   <a href="https://www.java.com/" target="_blank"><img src="https://img.shields.io/badge/Java_17+-070b16?style=for-the-badge&logo=openjdk&logoColor=38bdf8" alt="Java" /></a>
-  <a href="https://kotlinlang.org/" target="_blank"><img src="https://img.shields.io/badge/Kotlin-070b16?style=for-the-badge&logo=kotlin&logoColor=ff354f" alt="Kotlin" /></a>
-  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python_3-070b16?style=for-the-badge&logo=python&logoColor=38bdf8" alt="Python" /></a>
-  <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring_Boot-070b16?style=for-the-badge&logo=springboot&logoColor=52c41a" alt="Spring Boot" /></a>
-  <a href="https://developer.android.com/jetpack/compose" target="_blank"><img src="https://img.shields.io/badge/Jetpack_Compose-070b16?style=for-the-badge&logo=jetpackcompose&logoColor=3ddc84" alt="Jetpack Compose" /></a>
+  <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring_Boot-070b16?style=for-the-badge&logo=springboot&logoColor=6db33f" alt="Spring Boot" /></a>
+  <a href="https://www.sqlite.org/" target="_blank"><img src="https://img.shields.io/badge/SQLite_/_Room-070b16?style=for-the-badge&logo=sqlite&logoColor=003b57" alt="SQLite" /></a>
   <a href="https://threejs.org/" target="_blank"><img src="https://img.shields.io/badge/Three.js-070b16?style=for-the-badge&logo=threedotjs&logoColor=c084fc" alt="Three.js" /></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python_3-070b16?style=for-the-badge&logo=python&logoColor=38bdf8" alt="Python" /></a>
   <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-070b16?style=for-the-badge&logo=docker&logoColor=247bff" alt="Docker" /></a>
-  <a href="https://aws.amazon.com/" target="_blank"><img src="https://img.shields.io/badge/AWS-070b16?style=for-the-badge&logo=amazonwebservices&logoColor=ff9900" alt="AWS" /></a>
-  <a href="https://www.sqlite.org/" target="_blank"><img src="https://img.shields.io/badge/SQLite-070b16?style=for-the-badge&logo=sqlite&logoColor=003b57" alt="SQLite" /></a>
+  <a href="https://firebase.google.com/" target="_blank"><img src="https://img.shields.io/badge/Firebase-070b16?style=for-the-badge&logo=firebase&logoColor=ffca28" alt="Firebase" /></a>
   <a href="https://leetcode.com/bhaskaracharjee" target="_blank"><img src="https://img.shields.io/badge/LeetCode-070b16?style=for-the-badge&logo=leetcode&logoColor=ffa116" alt="LeetCode" /></a>
 </p>
 
@@ -106,7 +107,7 @@
 
 <!-- ================= 07 / BUILDER CREDENTIALS ================= -->
 <div id="builder-credentials" align="center">
-  <img src="./assets/id-dashboard.svg?v=2" width="100%" alt="Bhaskar's Builder Credentials — Real Work. Real Impact." />
+  <img src="./assets/id-dashboard.svg?v=4" width="100%" alt="Bhaskar's Builder Credentials — Real Work. Real Impact." />
 </div>
 
 <p align="center">
@@ -115,7 +116,7 @@
 
 <!-- ================= 08 / INTERACTIVE DEVELOPER CONSOLE ================= -->
 <div id="interactive-terminal" align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Interactive Cyber Terminal" />
+  <img src="./assets/terminal.svg?v=4" width="100%" alt="Interactive Cyber Terminal" />
 </div>
 
 <p align="center">

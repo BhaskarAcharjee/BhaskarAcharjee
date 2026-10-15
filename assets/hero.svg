@@ -150,10 +150,10 @@
   <!-- Dynamic Role -->
   <g class="sans">
     <text x="44" y="436" font-size="26" font-weight="700" fill="#f2f5ff">
-      Java Backend Developer @ TCS
+      Android &amp; Kotlin Developer • Java @ TCS
     </text>
     <text x="44" y="472" font-size="14.5" fill="#adbed8" class="mono">
-      Building scalable enterprise microservices &amp; 5+ published Google Play apps.
+      Building native Android apps (5+ on Google Play) &amp; scalable enterprise systems.
     </text>
   </g>
 
@@ -184,7 +184,7 @@
   <g transform="translate(200 578) scale(0.7)" fill="none" stroke="#247bff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M8 6V3h8v3 M3 7h18v15H3Z M3 12q9 6 18 0 M11 14h2"/>
   </g>
-  <text x="226" y="593" font-size="11.5" fill="#9db2d1" class="mono">TCS Backend</text>
+  <text x="226" y="593" font-size="11.5" fill="#9db2d1" class="mono">Kotlin &amp; Android</text>
 
   <g transform="translate(356 578) scale(0.7)" fill="none" stroke="#247bff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 3h16v18H4Z M8 3v18 M12 7h4"/>

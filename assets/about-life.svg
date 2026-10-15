@@ -82,25 +82,25 @@
 
   <!-- 3 Capability Cards (Bottom) -->
   <g transform="translate(32, 260)">
-    <!-- Row 1: Backend Architecture -->
+    <!-- Row 1: Native Android Engineering -->
     <g transform="translate(0, 0)">
       <rect width="516" height="74" rx="8" fill="#0b1424" stroke="#1d3454"/>
       <g transform="translate(20, 24)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round">
+        <rect x="4" y="2" width="16" height="22" rx="3"/>
+        <path d="M11 19h2"/>
+      </g>
+      <text x="56" y="30" font-size="15" fill="#f2f5ff" class="heading">Native Android Engineering</text>
+      <text x="56" y="52" font-size="12" fill="#9db2d1" class="sans">5+ published Google Play apps built with Kotlin, Jetpack Compose, &amp; SQLite.</text>
+    </g>
+
+    <!-- Row 2: Enterprise Java Backend -->
+    <g transform="translate(0, 86)">
+      <rect width="516" height="74" rx="8" fill="#0b1424" stroke="#1d3454"/>
+      <g transform="translate(20, 24)" fill="none" stroke="#ff354f" stroke-width="2" stroke-linecap="round">
         <path d="M16 18l6-6-6-6 M8 6l-6 6 6 6"/>
       </g>
       <text x="56" y="30" font-size="15" fill="#f2f5ff" class="heading">Enterprise Java Backend</text>
       <text x="56" y="52" font-size="12" fill="#9db2d1" class="sans">High-throughput microservices &amp; fault-tolerant distributed APIs @ TCS.</text>
-    </g>
-
-    <!-- Row 2: Mobile App Publishing -->
-    <g transform="translate(0, 86)">
-      <rect width="516" height="74" rx="8" fill="#0b1424" stroke="#1d3454"/>
-      <g transform="translate(20, 24)" fill="none" stroke="#ff354f" stroke-width="2" stroke-linecap="round">
-        <rect x="4" y="2" width="16" height="22" rx="3"/>
-        <path d="M11 19h2"/>
-      </g>
-      <text x="56" y="30" font-size="15" fill="#f2f5ff" class="heading">5+ Published Google Play Apps</text>
-      <text x="56" y="52" font-size="12" fill="#9db2d1" class="sans">Native Android engineering with Kotlin, Jetpack Compose, &amp; SQLite.</text>
     </g>
 
     <!-- Row 3: 3D Web & Analytics -->

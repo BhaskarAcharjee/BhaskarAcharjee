@@ -90,7 +90,7 @@
 
     <!-- Line 2: Role -->
     <text y="46">
-      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Role: </tspan><tspan fill="#fbbf24" font-weight="600">Java Backend Developer @ TCS</tspan>
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Role: </tspan><tspan fill="#fbbf24" font-weight="600">Android &amp; Kotlin Developer • Systems Engineer @ TCS</tspan>
     </text>
 
     <!-- Line 3: Published Apps -->
@@ -100,17 +100,17 @@
 
     <!-- Line 4: Core Architecture -->
     <text y="90">
-      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Core Stack: </tspan><tspan fill="#c084fc">Java 17+ • Spring Boot • Kotlin</tspan>
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Core Stack: </tspan><tspan fill="#c084fc">Kotlin • Jetpack Compose • Android SDK</tspan>
     </text>
 
     <!-- Line 5: Frameworks -->
     <text y="112">
-      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Ecosystem: </tspan><tspan fill="#cbd5e1">Microservices • Jetpack Compose • REST</tspan>
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Ecosystem: </tspan><tspan fill="#cbd5e1">Java 17+ • Spring Boot • Room DB • REST APIs</tspan>
     </text>
 
     <!-- Line 6: Database/Cloud -->
     <text y="134">
-      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Databases: </tspan><tspan fill="#38bdf8">MySQL • SQLite • MongoDB • Firebase</tspan>
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Databases: </tspan><tspan fill="#38bdf8">SQLite / Room • Firebase • MySQL • Three.js</tspan>
     </text>
 
     <!-- Line 7: Performance Check -->

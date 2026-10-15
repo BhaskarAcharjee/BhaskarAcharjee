@@ -13,7 +13,7 @@
     
     @keyframes pulseDot {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.35; transform: scale(1.3); }
+      50% { opacity: 0.35; transform: scale(1.35); }
     }
     .pulse {
       animation: pulseDot 2s infinite ease-in-out;
@@ -28,20 +28,29 @@
       100% { transform: rotate(0deg); }
     }
     .spin-cw {
-      animation: rotateClockwise 26s linear infinite;
+      animation: rotateClockwise 28s linear infinite;
       transform-origin: 935px 330px;
     }
     .spin-ccw {
-      animation: rotateCounter 34s linear infinite;
+      animation: rotateCounter 36s linear infinite;
+      transform-origin: 935px 330px;
+    }
+    @keyframes sweepRadar {
+      0% { opacity: 0.15; transform: rotate(0deg); }
+      50% { opacity: 0.45; }
+      100% { opacity: 0.15; transform: rotate(360deg); }
+    }
+    .radar-sweep {
+      animation: sweepRadar 14s linear infinite;
       transform-origin: 935px 330px;
     }
   </style>
 
   <linearGradient id="hero-hairline" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".6"/>
-    <stop offset="40%" stop-color="#1f3760" stop-opacity=".2"/>
-    <stop offset="70%" stop-color="#ff354f" stop-opacity=".4"/>
-    <stop offset="100%" stop-color="#247bff" stop-opacity=".2"/>
+    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".7"/>
+    <stop offset="40%" stop-color="#1f3760" stop-opacity=".3"/>
+    <stop offset="70%" stop-color="#ff354f" stop-opacity=".5"/>
+    <stop offset="100%" stop-color="#247bff" stop-opacity=".3"/>
   </linearGradient>
 
   <linearGradient id="hero-aurora" x1="0" y1="0" x2="1" y2="0">
@@ -52,17 +61,17 @@
   </linearGradient>
 
   <radialGradient id="hero-halo" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#247bff" stop-opacity=".32"/>
+    <stop offset="0%" stop-color="#247bff" stop-opacity=".36"/>
     <stop offset="100%" stop-color="#247bff" stop-opacity="0"/>
   </radialGradient>
 
   <radialGradient id="hero-red-halo" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#ff354f" stop-opacity=".28"/>
+    <stop offset="0%" stop-color="#ff354f" stop-opacity=".30"/>
     <stop offset="100%" stop-color="#ff354f" stop-opacity="0"/>
   </radialGradient>
 
   <pattern id="hero-dots" width="22" height="22" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.2" fill="#2d4a73" fill-opacity=".3"/>
+    <circle cx="2" cy="2" r="1.2" fill="#2d4a73" fill-opacity=".32"/>
   </pattern>
 
   <clipPath id="hero-outer">
@@ -75,16 +84,16 @@
 </defs>
 
 <g clip-path="url(#hero-outer)">
-  <!-- Background -->
+  <!-- Deep Dark Background -->
   <rect x="1" y="1" width="1198" height="638" rx="22" fill="#070b16" stroke="url(#hero-hairline)" stroke-width="1.8"/>
   <rect x="2" y="2" width="1196" height="636" rx="21" fill="url(#hero-dots)"/>
 
   <!-- Ambient Halos -->
-  <ellipse cx="935" cy="330" rx="380" ry="360" fill="url(#hero-halo)"/>
+  <ellipse cx="935" cy="330" rx="390" ry="370" fill="url(#hero-halo)"/>
   <ellipse cx="1180" cy="110" rx="260" ry="320" fill="url(#hero-red-halo)"/>
 
-  <!-- Big Watermark Numbers in Background -->
-  <text x="710" y="525" font-size="260" fill="#0c1e38" class="heading" letter-spacing="-6" opacity="0.6">TCS</text>
+  <!-- Background Watermark -->
+  <text x="690" y="525" font-size="260" fill="#0c1e38" class="heading" letter-spacing="-6" opacity="0.6">TCS</text>
 
   <!-- Slanted Structural Grid Rays -->
   <path d="M630 95 L310 640" fill="none" stroke="#193057" stroke-width="1.5" opacity=".25"/>
@@ -100,6 +109,9 @@
   <g class="spin-ccw">
     <circle cx="935" cy="330" r="232" fill="none" stroke="#ff354f" opacity=".2"/>
     <circle cx="935" cy="330" r="232" fill="none" stroke="#ff354f" stroke-width="2" stroke-dasharray="60 30 10 90"/>
+  </g>
+  <g class="radar-sweep">
+    <line x1="935" y1="330" x2="1145" y2="330" stroke="#38bdf8" stroke-width="2" opacity="0.4"/>
   </g>
 
   <!-- Top Metadata Bar -->
@@ -133,7 +145,7 @@
   <text x="382" y="365" font-size="28" fill="#f2f5ff" class="heading">INNOVATE.</text>
   <text x="382" y="395" font-size="28" fill="#f2f5ff" class="heading">SCALE.</text>
 
-  <!-- Dynamic Role Cycling -->
+  <!-- Dynamic Role -->
   <g class="sans">
     <text x="46" y="446" font-size="26" font-weight="700" fill="#f2f5ff">
       Java Backend Developer @ TCS
@@ -145,7 +157,6 @@
 
   <!-- Bhaskar's Real Photo Embedded on Right -->
   <g>
-    <!-- Background circle glow frame -->
     <circle cx="935" cy="330" r="188" fill="none" stroke="#247bff" stroke-width="3"/>
     <circle cx="935" cy="330" r="198" fill="none" stroke="#ff354f" stroke-width="1.5" stroke-dasharray="12 10" opacity="0.6"/>
     <image href="data:image/jpeg;base64,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" x="750" y="145" width="370" height="370" clip-path="url(#bhaskar-photo-clip)"/>
@@ -163,31 +174,26 @@
   <path d="M44 554 L644 554" fill="none" stroke="#24334d" stroke-width="1.5"/>
 
   <!-- Bottom Metadata Row with Icons -->
-  <!-- Kolkata -->
   <g transform="translate(44 578) scale(0.7)" fill="none" stroke="#247bff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M12 22s8-8 8-14a8 8 0 0 0-16 0c0 6 8 14 8 14Z M15 8a3 3 0 1 1-6 0a3 3 0 1 1 6 0"/>
   </g>
   <text x="70" y="593" font-size="11.5" fill="#9db2d1" class="mono">Kolkata, IN</text>
 
-  <!-- TCS -->
   <g transform="translate(200 578) scale(0.7)" fill="none" stroke="#247bff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M8 6V3h8v3 M3 7h18v15H3Z M3 12q9 6 18 0 M11 14h2"/>
   </g>
   <text x="226" y="593" font-size="11.5" fill="#9db2d1" class="mono">TCS Backend</text>
 
-  <!-- 34 Repos -->
   <g transform="translate(356 578) scale(0.7)" fill="none" stroke="#247bff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 3h16v18H4Z M8 3v18 M12 7h4"/>
   </g>
   <text x="382" y="593" font-size="11.5" fill="#9db2d1" class="mono">34 repos</text>
 
-  <!-- 5+ Play Apps -->
   <g transform="translate(490 578) scale(0.7)" fill="none" stroke="#247bff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z"/>
   </g>
   <text x="516" y="593" font-size="11.5" fill="#9db2d1" class="mono">5+ play apps</text>
 
-  <!-- Right Section Number -->
   <text x="890" y="612" font-size="10.5" fill="#6688b5" class="mono">01 / ENGINEERED TO EVOLVE</text>
 </g>
 </svg>

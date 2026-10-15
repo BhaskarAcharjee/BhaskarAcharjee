@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 68" width="100%" height="68">
+<defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 10.5px; font-weight: 700; }
+  </style>
+  <linearGradient id="nav-border" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+    <stop offset="50%" stop-color="#247bff" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#ff354f" stop-opacity="0.8"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="68" rx="14" fill="#080d1a" stroke="url(#nav-border)" stroke-width="1.4"/>
+
+<g transform="translate(24, 16)">
+  <!-- Logo pill -->
+  <rect width="64" height="36" rx="8" fill="#102542" stroke="#247bff"/>
+  <text x="32" y="23" font-size="13" fill="#ffffff" font-family="'Inter', sans-serif" font-weight="900" text-anchor="middle">BA</text>
+
+  <!-- Nav links visually styled -->
+  <g transform="translate(80, 0)">
+    <rect width="106" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+    <text x="53" y="23" fill="#38bdf8" class="mono" text-anchor="middle">01 / BLUEPRINT</text>
+
+    <g transform="translate(116, 0)">
+      <rect width="122" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="61" y="23" fill="#73b0ff" class="mono" text-anchor="middle">02 / ENGINE ROOM</text>
+    </g>
+
+    <g transform="translate(248, 0)">
+      <rect width="102" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="51" y="23" fill="#38bdf8" class="mono" text-anchor="middle">03 / PROJECTS</text>
+    </g>
+
+    <g transform="translate(360, 0)">
+      <rect width="122" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="61" y="23" fill="#52c41a" class="mono" text-anchor="middle">04 / SNAKE MATRIX</text>
+    </g>
+
+    <g transform="translate(492, 0)">
+      <rect width="138" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="69" y="23" fill="#38bdf8" class="mono" text-anchor="middle">05 / WAKATIME STATS</text>
+    </g>
+
+    <g transform="translate(640, 0)">
+      <rect width="126" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="63" y="23" fill="#ff4d6d" class="mono" text-anchor="middle">06 / GITHUB STATS</text>
+    </g>
+
+    <g transform="translate(776, 0)">
+      <rect width="120" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="60" y="23" fill="#73b0ff" class="mono" text-anchor="middle">07 / CREDENTIALS</text>
+    </g>
+
+    <g transform="translate(906, 0)">
+      <rect width="104" height="36" rx="6" fill="#1b1222" stroke="#ff354f"/>
+      <text x="52" y="23" fill="#ff7088" class="mono" text-anchor="middle">08 / CONNECT</text>
+    </g>
+  </g>
+</g>
+</svg>

@@ -1,49 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
 <defs>
   <style>
-    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
     .heading { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
   </style>
 
   <linearGradient id="conn-hairline" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".5"/>
-    <stop offset="50%" stop-color="#1f3760" stop-opacity=".2"/>
-    <stop offset="100%" stop-color="#ff354f" stop-opacity=".4"/>
+    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".6"/>
+    <stop offset="50%" stop-color="#1f3760" stop-opacity=".3"/>
+    <stop offset="100%" stop-color="#ff354f" stop-opacity=".5"/>
   </linearGradient>
 
   <pattern id="conn-dots" width="22" height="22" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.2" fill="#2d4a73" fill-opacity=".25"/>
+    <circle cx="2" cy="2" r="1.1" fill="#2d4a73" fill-opacity=".25"/>
   </pattern>
 
-  <clipPath id="conn-outer">
-    <rect x="1" y="1" width="1198" height="318" rx="22"/>
+  <clipPath id="conn-photo-clip">
+    <rect x="0" y="0" width="280" height="360" rx="14"/>
   </clipPath>
 </defs>
 
-<g clip-path="url(#conn-outer)">
-  <rect x="1" y="1" width="1198" height="318" rx="22" fill="#070b16" stroke="url(#conn-hairline)" stroke-width="1.8"/>
-  <rect x="2" y="2" width="1196" height="316" rx="21" fill="url(#conn-dots)"/>
+<rect width="1200" height="520" rx="22" fill="#070b16" stroke="url(#conn-hairline)" stroke-width="1.8"/>
+<rect width="1200" height="520" rx="22" fill="url(#conn-dots)"/>
 
-  <!-- Header line -->
-  <path d="M42 54 L1158 54" fill="none" stroke="#223149" stroke-width="1.5"/>
-  <text x="44" y="34" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">05 / INITIATE CONTACT</text>
-  <text x="960" y="34" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">OPEN FOR OPPORTUNITIES</text>
+<!-- Header Line -->
+<path d="M42 56 L1158 56" fill="none" stroke="#223149" stroke-width="1.5"/>
+<text x="44" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">08 / START A CONVERSATION</text>
+<text x="44" y="96" font-size="34" fill="#f2f5ff" class="heading">BUILD SOMETHING GREAT.</text>
+<text x="44" y="118" font-size="11" fill="#7b94b5" class="mono" letter-spacing="1.6">IDEAS. OPPORTUNITIES. YOUR NEXT MOVE.</text>
 
-  <!-- Big Call to Action -->
-  <text x="44" y="128" font-size="48" fill="#f2f5ff" class="heading">Let's build what's next.</text>
-  <text x="44" y="168" font-size="16" fill="#a9c0df" class="sans">
-    Open to high-impact distributed backend engineering, mobile app architecture, and open-source collaborations.
-  </text>
+<!-- Triple red chevrons -->
+<path d="M1092 82l9 0 -7 18h-9Z" fill="#ff354f"/>
+<path d="M1104 82l9 0 -7 18h-9Z" fill="#ff354f"/>
+<path d="M1116 82l9 0 -7 18h-9Z" fill="#ff354f"/>
 
-  <!-- Status Capsule -->
-  <rect x="44" y="210" width="240" height="38" rx="8" fill="#102542" stroke="#247bff" stroke-width="1.4"/>
-  <circle cx="68" cy="229" r="4.5" fill="#38bdf8"/>
-  <text x="84" y="234" font-size="11" fill="#b9d6ff" class="mono">KOLKATA, IN · OPEN TO WORK</text>
-
-  <!-- Right Side Accent -->
-  <path d="M1092 120l9 0 -7 18h-9Z" fill="#247bff"/>
-  <path d="M1104 120l9 0 -7 18h-9Z" fill="#247bff"/>
-  <path d="M1116 120l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <text x="920" y="234" font-size="11" fill="#6688b5" class="mono">BHASKAR ACHARJEE © 2026</text>
+<!-- Left Portrait -->
+<g transform="translate(64, 130)">
+  <rect width="284" height="344" rx="16" fill="none" stroke="#25456f" stroke-width="2"/>
+  <image href="data:image/jpeg;base64,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" x="2" y="2" width="280" height="340" clip-path="url(#conn-photo-clip)"/>
+  
+  <rect x="18" y="290" width="248" height="42" rx="8" fill="#091424" stroke="#223b5e" stroke-width="1.2"/>
+  <circle cx="36" cy="311" r="4.5" fill="#38bdf8"/>
+  <text x="50" y="315" font-size="11" fill="#c4d8f2" class="mono">KOLKATA · OPEN TO TALK</text>
 </g>
+
+<!-- Right 4 Interactive Connect Cards -->
+<g transform="translate(420, 140)">
+  <!-- Card 1: LinkedIn -->
+  <g transform="translate(0, 0)">
+    <rect width="700" height="68" rx="10" fill="#0c172a" stroke="#223f66" stroke-width="1.2"/>
+    <rect x="16" y="14" width="40" height="40" rx="8" fill="#0a66c2"/>
+    <text x="36" y="39" font-size="18" fill="#ffffff" class="heading" text-anchor="middle">in</text>
+    <text x="74" y="32" font-size="17" fill="#ffffff" class="heading">LinkedIn</text>
+    <text x="74" y="50" font-size="11.5" fill="#8fa9cc" class="mono">Connect &amp; exchange ideas · /in/bhaskar-acharjee</text>
+    <text x="660" y="42" font-size="20" fill="#38bdf8" class="mono">→</text>
+  </g>
+
+  <!-- Card 2: YouTube -->
+  <g transform="translate(0, 78)">
+    <rect width="700" height="68" rx="10" fill="#0c172a" stroke="#223f66" stroke-width="1.2"/>
+    <rect x="16" y="14" width="40" height="40" rx="8" fill="#ff0000"/>
+    <path d="M30 26l14 8-14 8V26Z" fill="#ffffff"/>
+    <text x="74" y="32" font-size="17" fill="#ffffff" class="heading">YouTube</text>
+    <text x="74" y="50" font-size="11.5" fill="#8fa9cc" class="mono">Watch technical deep dives · @CorvasBhaskar</text>
+    <text x="660" y="42" font-size="20" fill="#ff354f" class="mono">→</text>
+  </g>
+
+  <!-- Card 3: Portfolio -->
+  <g transform="translate(0, 156)">
+    <rect width="700" height="68" rx="10" fill="#0c172a" stroke="#223f66" stroke-width="1.2"/>
+    <rect x="16" y="14" width="40" height="40" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="36" y="38" font-size="14" fill="#38bdf8" class="mono" text-anchor="middle">&lt;/&gt;</text>
+    <text x="74" y="32" font-size="17" fill="#ffffff" class="heading">Personal Portfolio</text>
+    <text x="74" y="50" font-size="11.5" fill="#8fa9cc" class="mono">Explore interactive 3D labs &amp; projects · corvas.in</text>
+    <text x="660" y="42" font-size="20" fill="#38bdf8" class="mono">→</text>
+  </g>
+
+  <!-- Card 4: Email Direct -->
+  <g transform="translate(0, 234)">
+    <rect width="700" height="68" rx="10" fill="#0c172a" stroke="#223f66" stroke-width="1.2"/>
+    <rect x="16" y="14" width="40" height="40" rx="8" fill="#1e293b" stroke="#73b0ff" stroke-width="1.5"/>
+    <text x="36" y="38" font-size="16" fill="#73b0ff" class="mono" text-anchor="middle">@</text>
+    <text x="74" y="32" font-size="17" fill="#ffffff" class="heading">Email</text>
+    <text x="74" y="50" font-size="11.5" fill="#8fa9cc" class="mono">bhaskaracharjee2002@gmail.com</text>
+    <text x="660" y="42" font-size="20" fill="#73b0ff" class="mono">→</text>
+  </g>
+</g>
+
+<!-- Footer -->
+<text x="420" y="490" font-size="11" fill="#7390b5" class="mono">GOOD PEOPLE. GOOD IDEAS. LET'S TALK.</text>
+<text x="960" y="490" font-size="11" fill="#4d698e" class="mono">BHASKAR ACHARJEE © 2026</text>
 </svg>

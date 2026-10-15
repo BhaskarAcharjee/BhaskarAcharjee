@@ -1,108 +1,180 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 570" width="100%" height="100%">
 <defs>
   <style>
-    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
     .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
     .heading { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+    
+    @keyframes cursorBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      animation: cursorBlink 0.9s infinite;
+    }
   </style>
 
-  <linearGradient id="about-hairline" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".5"/>
-    <stop offset="50%" stop-color="#1f3760" stop-opacity=".2"/>
-    <stop offset="100%" stop-color="#ff354f" stop-opacity=".4"/>
+  <linearGradient id="card-border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#223b5e"/>
+    <stop offset="50%" stop-color="#16263d"/>
+    <stop offset="100%" stop-color="#2a456c"/>
   </linearGradient>
 
-  <pattern id="about-dots" width="22" height="22" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.2" fill="#2d4a73" fill-opacity=".25"/>
+  <pattern id="card-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.1" fill="#2d4a73" fill-opacity=".25"/>
   </pattern>
 
-  <clipPath id="about-outer">
-    <rect x="1" y="1" width="1198" height="638" rx="22"/>
+  <clipPath id="about-photo-clip">
+    <rect x="0" y="0" width="150" height="230" rx="10"/>
   </clipPath>
 </defs>
 
-<g clip-path="url(#about-outer)">
-  <rect x="1" y="1" width="1198" height="638" rx="22" fill="#070b16" stroke="url(#about-hairline)" stroke-width="1.8"/>
-  <rect x="2" y="2" width="1196" height="636" rx="21" fill="url(#about-dots)"/>
+<!-- ================= LEFT CARD: 01 / FROM THOUGHT TO THING ================= -->
+<g transform="translate(10, 10)">
+  <!-- Container -->
+  <rect width="580" height="550" rx="18" fill="#070b16" stroke="url(#card-border)" stroke-width="1.6"/>
+  <rect width="580" height="550" rx="18" fill="url(#card-dots)"/>
 
-  <!-- Top Header -->
-  <path d="M42 66 L1158 66" fill="none" stroke="#223149" stroke-width="1.5"/>
-  <text x="44" y="42" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">02 / THE BLUEPRINT</text>
-  <text x="960" y="42" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">FOUNDATIONS &amp; CRAFT</text>
+  <!-- Top metadata -->
+  <text x="32" y="38" font-size="11" fill="#7d93b3" class="mono" letter-spacing="1.4">01 / FROM THOUGHT TO THING</text>
+  <text x="32" y="78" font-size="34" fill="#f2f5ff" class="heading">IDEAS. BUILT DIFFERENT.</text>
 
-  <!-- Left Column: Core Focus Cards -->
-  <g transform="translate(44, 90)">
-    <text x="0" y="24" font-size="28" fill="#f2f5ff" class="heading">Engineering Architecture</text>
-    <text x="0" y="52" font-size="13.5" fill="#8e9db9" class="mono">Where backend resilience meets mobile craft.</text>
+  <!-- Interactive Terminal Window -->
+  <g transform="translate(32, 105)">
+    <rect width="516" height="135" rx="10" fill="#0c1626" stroke="#223b5e" stroke-width="1.2"/>
+    <!-- Terminal Header Bar -->
+    <circle cx="22" cy="18" r="4.5" fill="#ff4d4f"/>
+    <circle cx="36" cy="18" r="4.5" fill="#fadb14"/>
+    <circle cx="50" cy="18" r="4.5" fill="#52c41a"/>
+    <text x="75" y="22" font-size="11" fill="#6c88ad" class="mono">github.com / bhaskaracharjee / build</text>
+    <line x1="0" y1="34" x2="516" y2="34" stroke="#1c2f4a" stroke-width="1"/>
 
-    <!-- Card 1: Enterprise Backend -->
-    <g transform="translate(0, 80)">
-      <rect width="530" height="120" rx="12" fill="#0b1424" stroke="#223b5e" stroke-width="1.4"/>
-      <path d="M16 0 L80 0" stroke="#247bff" stroke-width="3"/>
-      <text x="24" y="36" font-size="18" fill="#f2f5ff" class="heading">Enterprise Java @ TCS</text>
-      <text x="24" y="64" font-size="13" fill="#9db2d1" class="sans">Architecting high-throughput microservices, robust RESTful APIs,</text>
-      <text x="24" y="86" font-size="13" fill="#9db2d1" class="sans">and fault-tolerant data pipelines for mission-critical enterprise systems.</text>
-      <rect x="420" y="20" width="86" height="24" rx="4" fill="#122c49"/>
-      <text x="432" y="36" font-size="10" fill="#73b0ff" class="mono">BACKEND</text>
-    </g>
+    <!-- Executing Command Line -->
+    <text x="22" y="58" font-size="13" fill="#38bdf8" class="mono">> turn_curiosity_into_impact()</text>
+    <rect x="252" y="47" width="8" height="14" fill="#38bdf8" class="cursor"/>
 
-    <!-- Card 2: Mobile Ecosystem -->
-    <g transform="translate(0, 220)">
-      <rect width="530" height="120" rx="12" fill="#0b1424" stroke="#223b5e" stroke-width="1.4"/>
-      <path d="M16 0 L80 0" stroke="#ff354f" stroke-width="3"/>
-      <text x="24" y="36" font-size="18" fill="#f2f5ff" class="heading">5+ Published Play Store Apps</text>
-      <text x="24" y="64" font-size="13" fill="#9db2d1" class="sans">End-to-end native Android engineering with Kotlin, Jetpack</text>
-      <text x="24" y="86" font-size="13" fill="#9db2d1" class="sans">Compose, offline SQLite caching, and fluid user experiences.</text>
-      <rect x="420" y="20" width="86" height="24" rx="4" fill="#301524"/>
-      <text x="432" y="36" font-size="10" fill="#ff7088" class="mono">ANDROID</text>
-    </g>
+    <!-- 3-Step Pipeline Flow -->
+    <g transform="translate(18, 76)">
+      <!-- Step 01 -->
+      <rect width="90" height="42" rx="6" fill="#0e1f36" stroke="#254365"/>
+      <text x="12" y="18" font-size="12" fill="#38bdf8" class="heading">01</text>
+      <text x="12" y="32" font-size="9" fill="#9db2d1" class="mono">IDEATE</text>
 
-    <!-- Card 3: Creative 3D & Analytics -->
-    <g transform="translate(0, 360)">
-      <rect width="530" height="120" rx="12" fill="#0b1424" stroke="#223b5e" stroke-width="1.4"/>
-      <path d="M16 0 L80 0" stroke="#38bdf8" stroke-width="3"/>
-      <text x="24" y="36" font-size="18" fill="#f2f5ff" class="heading">3D Web Labs &amp; Data Insights</text>
-      <text x="24" y="64" font-size="13" fill="#9db2d1" class="sans">Building 3D simulations (3D-Room, TShirtify AI), audio visualizers,</text>
-      <text x="24" y="86" font-size="13" fill="#9db2d1" class="sans">and automated Python data analytics pipelines for deep business insights.</text>
-      <rect x="420" y="20" width="86" height="24" rx="4" fill="#0e2a3a"/>
-      <text x="435" y="36" font-size="10" fill="#38bdf8" class="mono">3D + AI</text>
+      <text x="100" y="24" font-size="14" fill="#6682a8" class="mono">→</text>
+
+      <!-- Step 02 -->
+      <g transform="translate(118, 0)">
+        <rect width="90" height="42" rx="6" fill="#0e1f36" stroke="#254365"/>
+        <text x="12" y="18" font-size="12" fill="#73b0ff" class="heading">02</text>
+        <text x="12" y="32" font-size="9" fill="#9db2d1" class="mono">ENGINEER</text>
+      </g>
+
+      <text x="218" y="24" font-size="14" fill="#6682a8" class="mono">→</text>
+
+      <!-- Step 03 -->
+      <g transform="translate(236, 0)">
+        <rect width="90" height="42" rx="6" fill="#1b1222" stroke="#ff354f"/>
+        <text x="12" y="18" font-size="12" fill="#ff4d6d" class="heading">03</text>
+        <text x="12" y="32" font-size="9" fill="#ffa1b1" class="mono">SHIP</text>
+      </g>
     </g>
   </g>
 
-  <!-- Right Column: Beyond the Desk Card -->
-  <g transform="translate(620, 110)">
-    <rect width="536" height="470" rx="14" fill="#0c1628" stroke="#233d61" stroke-width="1.5"/>
-    <text x="32" y="44" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">BEYOND CODE // PHILOSOPHY</text>
-    <text x="32" y="86" font-size="32" fill="#f2f5ff" class="heading">Discipline. Logic. Impact.</text>
-
-    <!-- Point 01 -->
-    <g transform="translate(32, 130)">
-      <text x="0" y="28" font-size="32" fill="#247bff" class="heading">01</text>
-      <text x="50" y="16" font-size="11" fill="#8e9db9" class="mono">B.TECH ELECTRONICS (JGEC)</text>
-      <text x="50" y="36" font-size="15" fill="#f2f5ff" class="sans">Hardware-informed understanding of low-level systems &amp; optimization.</text>
-      <path d="M0 56 L470 56" stroke="#1c2d47" stroke-width="1"/>
+  <!-- 3 Capability Cards (Bottom) -->
+  <g transform="translate(32, 260)">
+    <!-- Row 1: Backend Architecture -->
+    <g transform="translate(0, 0)">
+      <rect width="516" height="74" rx="8" fill="#0b1424" stroke="#1d3454"/>
+      <g transform="translate(20, 24)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round">
+        <path d="M16 18l6-6-6-6 M8 6l-6 6 6 6"/>
+      </g>
+      <text x="56" y="30" font-size="15" fill="#f2f5ff" class="heading">Enterprise Java Backend</text>
+      <text x="56" y="52" font-size="12" fill="#9db2d1" class="sans">High-throughput microservices &amp; fault-tolerant distributed APIs @ TCS.</text>
     </g>
 
-    <!-- Point 02 -->
-    <g transform="translate(32, 215)">
-      <text x="0" y="28" font-size="32" fill="#ff354f" class="heading">02</text>
-      <text x="50" y="16" font-size="11" fill="#8e9db9" class="mono">ALGORITHMIC PROBLEM SOLVING</text>
-      <text x="50" y="36" font-size="15" fill="#f2f5ff" class="sans">Consistently solving on LeetCode &amp; CodeChef for analytical rigor.</text>
-      <path d="M0 56 L470 56" stroke="#1c2d47" stroke-width="1"/>
+    <!-- Row 2: Mobile App Publishing -->
+    <g transform="translate(0, 86)">
+      <rect width="516" height="74" rx="8" fill="#0b1424" stroke="#1d3454"/>
+      <g transform="translate(20, 24)" fill="none" stroke="#ff354f" stroke-width="2" stroke-linecap="round">
+        <rect x="4" y="2" width="16" height="22" rx="3"/>
+        <path d="M11 19h2"/>
+      </g>
+      <text x="56" y="30" font-size="15" fill="#f2f5ff" class="heading">5+ Published Google Play Apps</text>
+      <text x="56" y="52" font-size="12" fill="#9db2d1" class="sans">Native Android engineering with Kotlin, Jetpack Compose, &amp; SQLite.</text>
     </g>
 
-    <!-- Point 03 -->
-    <g transform="translate(32, 300)">
-      <text x="0" y="28" font-size="32" fill="#38bdf8" class="heading">03</text>
-      <text x="50" y="16" font-size="11" fill="#8e9db9" class="mono">INDEPENDENT CREATOR</text>
-      <text x="50" y="36" font-size="15" fill="#f2f5ff" class="sans">Published apps, web portals (corvas.in) and developer YouTube videos.</text>
-      <path d="M0 56 L470 56" stroke="#1c2d47" stroke-width="1"/>
+    <!-- Row 3: 3D Web & Analytics -->
+    <g transform="translate(0, 172)">
+      <rect width="516" height="74" rx="8" fill="#0b1424" stroke="#1d3454"/>
+      <g transform="translate(20, 24)" fill="none" stroke="#73b0ff" stroke-width="2" stroke-linecap="round">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+      </g>
+      <text x="56" y="30" font-size="15" fill="#f2f5ff" class="heading">3D Web Labs &amp; AI Tools</text>
+      <text x="56" y="52" font-size="12" fill="#9db2d1" class="sans">Three.js simulations (3D-Room, TShirtify) &amp; Python automation pipelines.</text>
+    </g>
+  </g>
+</g>
+
+<!-- ================= RIGHT CARD: 02 / LIFE OUTSIDE THE COMMIT ================= -->
+<g transform="translate(610, 10)">
+  <!-- Container -->
+  <rect width="580" height="550" rx="18" fill="#070b16" stroke="url(#card-border)" stroke-width="1.6"/>
+  <rect width="580" height="550" rx="18" fill="url(#card-dots)"/>
+
+  <!-- Top metadata -->
+  <text x="32" y="38" font-size="11" fill="#7d93b3" class="mono" letter-spacing="1.4">02 / LIFE OUTSIDE THE COMMIT</text>
+  <text x="32" y="78" font-size="34" fill="#f2f5ff" class="heading">MORE THAN A JOB TITLE.</text>
+
+  <!-- Creator Visual Box (Photo + YouTube Pill) -->
+  <g transform="translate(32, 105)">
+    <rect width="516" height="240" rx="12" fill="#091424" stroke="#1e3656" stroke-width="1.2"/>
+    
+    <!-- Photo Cutout Inside Card -->
+    <g transform="translate(20, 15)">
+      <rect width="152" height="212" rx="10" fill="none" stroke="#25476f" stroke-width="1.5"/>
+      <image href="data:image/jpeg;base64,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" x="1" y="1" width="150" height="210" clip-path="url(#about-photo-clip)"/>
     </g>
 
-    <!-- Bottom Accent Pill -->
-    <rect x="32" y="390" width="470" height="50" rx="8" fill="#11223b"/>
-    <circle cx="56" cy="415" r="4.5" fill="#38bdf8"/>
-    <text x="74" y="419" font-size="12" fill="#b9d6ff" class="mono">CURIOUS BY DEFAULT · BUILDING WITH INTENT</text>
+    <!-- Side Content: YouTube Creator + LeetCode Blueprint -->
+    <g transform="translate(192, 24)">
+      <!-- YouTube Pill -->
+      <g transform="translate(0, 0)">
+        <rect width="140" height="28" rx="6" fill="#ff0000" fill-opacity="0.2" stroke="#ff354f" stroke-width="1.2"/>
+        <path d="M12 9l8 5-8 5V9Z" fill="#ff354f"/>
+        <text x="28" y="18" font-size="10" fill="#ffffff" class="heading">YOUTUBE CREATOR</text>
+      </g>
+      <text x="0" y="48" font-size="12" fill="#9bb3d3" class="mono">@CorvasBhaskar / Tech Tutorials</text>
+
+      <path d="M0 64 L300 64" stroke="#1d3454" stroke-width="1"/>
+
+      <!-- 3 Blueprint Metrics -->
+      <g transform="translate(0, 80)">
+        <text y="0" font-size="9" fill="#6987ab" class="mono">APPROACH</text>
+        <text y="16" font-size="13" fill="#f2f5ff" class="sans" font-weight="600">Understand → simplify</text>
+
+        <text y="42" font-size="9" fill="#6987ab" class="mono">COMPLEXITY</text>
+        <text y="58" font-size="13" fill="#f2f5ff" class="sans" font-weight="600">Think before you type</text>
+
+        <text y="84" font-size="9" fill="#6987ab" class="mono">RESULT</text>
+        <g transform="translate(0, 92)">
+          <!-- LeetCode / Verified Hexagon -->
+          <polygon points="8,0 16,5 16,15 8,20 0,15 0,5" fill="#f59e0b"/>
+          <text x="24" y="14" font-size="13" fill="#38bdf8" class="sans" font-weight="700">All tests passed (LeetCode)</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Competitive Programming Card -->
+  <g transform="translate(32, 365)">
+    <rect width="516" height="150" rx="10" fill="#0b1424" stroke="#1d3454"/>
+    <text x="24" y="32" font-size="10" fill="#7d95b5" class="mono" letter-spacing="1.4">CHASE THE ELEGANT SOLUTION.</text>
+    <text x="24" y="66" font-size="24" fill="#f2f5ff" class="heading">Competitive Programming</text>
+    <text x="24" y="94" font-size="13" fill="#9db2d1" class="sans">For the joy of a complex problem, cleanly solved with optimal time &amp; space.</text>
+    <text x="24" y="128" font-size="11" fill="#73b0ff" class="mono">03 / 03</text>
+    <path d="M460 114l8 0 -6 16h-8Z" fill="#247bff"/>
+    <path d="M472 114l8 0 -6 16h-8Z" fill="#247bff"/>
+    <path d="M484 114l8 0 -6 16h-8Z" fill="#ff354f"/>
   </g>
 </g>
 </svg>

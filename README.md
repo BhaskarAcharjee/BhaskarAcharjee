@@ -36,7 +36,7 @@
 
 <!-- ================= 03 / THE ENGINE ROOM ================= -->
 <div id="engine-room" align="center">
-  <img src="./assets/stack.svg" width="100%" alt="My Engine Room: Tools Change. Curiosity Doesn't." />
+  <img src="./assets/stack.svg?v=2" width="100%" alt="My Engine Room: Tools Change. Curiosity Doesn't." />
 </div>
 
 <!-- Interactive Tech Arsenal Badges -->

@@ -145,23 +145,25 @@ def create_all_assets():
 
   <!-- Huge Name Typography -->
   <g class="heading">
-    <text x="39" y="286" font-size="124" fill="#f2f5ff" letter-spacing="1">BHASKAR</text>
-    <text x="40" y="396" font-size="124" fill="url(#hero-aurora)" letter-spacing="1">ACHARJEE</text>
+    <text x="38" y="272" font-size="108" fill="#f2f5ff" letter-spacing="1">BHASKAR</text>
+    <text x="38" y="378" font-size="108" fill="url(#hero-aurora)" letter-spacing="1">ACHARJEE</text>
   </g>
 
-  <!-- Hazard Chevrons & Slogan -->
-  <path d="M383 314l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <path d="M395 314l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <path d="M407 314l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <text x="382" y="365" font-size="28" fill="#f2f5ff" class="heading">INNOVATE.</text>
-  <text x="382" y="395" font-size="28" fill="#f2f5ff" class="heading">SCALE.</text>
+  <!-- Hazard Chevrons & Slogan (Positioned to the right of BHASKAR with zero overlap) -->
+  <g transform="translate(565, 218)">
+    <path d="M0 0l8 0 -6 16h-8Z" fill="#ff354f"/>
+    <path d="M12 0l8 0 -6 16h-8Z" fill="#ff354f"/>
+    <path d="M24 0l8 0 -6 16h-8Z" fill="#ff354f"/>
+    <text x="0" y="36" font-size="22" fill="#f2f5ff" class="heading" letter-spacing="1.2">INNOVATE.</text>
+    <text x="0" y="60" font-size="22" fill="#f2f5ff" class="heading" letter-spacing="1.2">SCALE.</text>
+  </g>
 
   <!-- Dynamic Role -->
   <g class="sans">
-    <text x="46" y="446" font-size="26" font-weight="700" fill="#f2f5ff">
+    <text x="44" y="436" font-size="26" font-weight="700" fill="#f2f5ff">
       Java Backend Developer @ TCS
     </text>
-    <text x="46" y="482" font-size="14.5" fill="#adbed8" class="mono">
+    <text x="44" y="472" font-size="14.5" fill="#adbed8" class="mono">
       Building scalable enterprise microservices &amp; 5+ published Google Play apps.
     </text>
   </g>
@@ -636,7 +638,7 @@ def create_all_assets():
 
 <!-- Header -->
 <path d="M42 66 L1158 66" fill="none" stroke="#223149" stroke-width="1.5"/>
-<text x="44" y="42" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">07 / BUILDER CREDENTIALS</text>
+<text x="44" y="42" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">06 / BUILDER CREDENTIALS</text>
 <text x="44" y="104" font-size="34" fill="#f2f5ff" class="heading">REAL WORK. REAL IMPACT.</text>
 <text x="44" y="126" font-size="11" fill="#7b94b5" class="mono" letter-spacing="1.6">PUBLIC SNAPSHOT / 2026</text>
 
@@ -912,7 +914,7 @@ def create_all_assets():
 
 <!-- Top Metadata Bar -->
 <path d="M36 56 L1164 56" fill="none" stroke="#223149" stroke-width="1.4"/>
-<text x="38" y="38" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">04 / CONTRIBUTION MATRIX</text>
+<text x="38" y="38" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">03 / CONTRIBUTION MATRIX</text>
 <text x="440" y="38" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">ACTIVITY TELEMETRY</text>
 
 <!-- Live Sync Capsule -->
@@ -1017,7 +1019,7 @@ def create_all_assets():
 
 <!-- Header -->
 <path d="M42 56 L1158 56" fill="none" stroke="#223149" stroke-width="1.5"/>
-<text x="44" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">05 / DEVELOPMENT TELEMETRY</text>
+<text x="44" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">04 / DEVELOPMENT TELEMETRY</text>
 <text x="440" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">WAKATIME TIME MATRIX</text>
 
 <!-- Live Badge -->
@@ -1104,7 +1106,7 @@ def create_all_assets():
     nav_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 68" width="100%" height="68">
 <defs>
   <style>
-    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 10.5px; font-weight: 700; }
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; font-weight: 700; }
   </style>
   <linearGradient id="nav-border" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
@@ -1121,42 +1123,42 @@ def create_all_assets():
 
   <!-- Nav links visually styled -->
   <g transform="translate(80, 0)">
-    <rect width="106" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-    <text x="53" y="23" fill="#38bdf8" class="mono" text-anchor="middle">01 / BLUEPRINT</text>
+    <rect width="112" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+    <text x="56" y="23" fill="#38bdf8" class="mono" text-anchor="middle">01 / BLUEPRINT</text>
 
-    <g transform="translate(116, 0)">
-      <rect width="122" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-      <text x="61" y="23" fill="#73b0ff" class="mono" text-anchor="middle">02 / ENGINE ROOM</text>
+    <g transform="translate(122, 0)">
+      <rect width="128" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="64" y="23" fill="#73b0ff" class="mono" text-anchor="middle">02 / ENGINE ROOM</text>
     </g>
 
-    <g transform="translate(248, 0)">
-      <rect width="102" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-      <text x="51" y="23" fill="#38bdf8" class="mono" text-anchor="middle">03 / PROJECTS</text>
+    <g transform="translate(260, 0)">
+      <rect width="130" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="65" y="23" fill="#52c41a" class="mono" text-anchor="middle">03 / SNAKE MATRIX</text>
     </g>
 
-    <g transform="translate(360, 0)">
-      <rect width="122" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-      <text x="61" y="23" fill="#52c41a" class="mono" text-anchor="middle">04 / SNAKE MATRIX</text>
+    <g transform="translate(400, 0)">
+      <rect width="144" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="72" y="23" fill="#38bdf8" class="mono" text-anchor="middle">04 / WAKATIME STATS</text>
     </g>
 
-    <g transform="translate(492, 0)">
-      <rect width="138" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-      <text x="69" y="23" fill="#38bdf8" class="mono" text-anchor="middle">05 / WAKATIME STATS</text>
+    <g transform="translate(554, 0)">
+      <rect width="132" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="66" y="23" fill="#ff4d6d" class="mono" text-anchor="middle">05 / GITHUB STATS</text>
     </g>
 
-    <g transform="translate(640, 0)">
+    <g transform="translate(696, 0)">
       <rect width="126" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-      <text x="63" y="23" fill="#ff4d6d" class="mono" text-anchor="middle">06 / GITHUB STATS</text>
+      <text x="63" y="23" fill="#73b0ff" class="mono" text-anchor="middle">06 / CREDENTIALS</text>
     </g>
 
-    <g transform="translate(776, 0)">
-      <rect width="120" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
-      <text x="60" y="23" fill="#73b0ff" class="mono" text-anchor="middle">07 / CREDENTIALS</text>
+    <g transform="translate(832, 0)">
+      <rect width="116" height="36" rx="6" fill="#0e1b2e" stroke="#233d61"/>
+      <text x="58" y="23" fill="#38bdf8" class="mono" text-anchor="middle">07 / TERMINAL</text>
     </g>
 
-    <g transform="translate(906, 0)">
-      <rect width="104" height="36" rx="6" fill="#1b1222" stroke="#ff354f"/>
-      <text x="52" y="23" fill="#ff7088" class="mono" text-anchor="middle">08 / CONNECT</text>
+    <g transform="translate(958, 0)">
+      <rect width="110" height="36" rx="6" fill="#1b1222" stroke="#ff354f"/>
+      <text x="55" y="23" fill="#ff7088" class="mono" text-anchor="middle">08 / CONNECT</text>
     </g>
   </g>
 </g>
@@ -1184,7 +1186,7 @@ def create_all_assets():
 
 <!-- Header bar -->
 <path d="M36 46 L1164 46" fill="none" stroke="#223149" stroke-width="1.4"/>
-<text x="38" y="30" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">06 / GITHUB REPO ANALYTICS</text>
+<text x="38" y="30" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">05 / GITHUB REPO ANALYTICS</text>
 <text x="440" y="30" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">TELEMETRY &amp; STREAK METRICS</text>
 
 <text x="38" y="86" font-size="28" fill="#f2f5ff" class="heading">CODE VELOCITY &amp; REPOSITORY IMPACT</text>

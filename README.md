@@ -8,13 +8,12 @@
 <p align="center">
   <a href="#the-blueprint"><b>[ 01 BLUEPRINT ]</b></a> &nbsp;·&nbsp;
   <a href="#engine-room"><b>[ 02 ENGINE ROOM ]</b></a> &nbsp;·&nbsp;
-  <a href="#featured-projects"><b>[ 03 PROJECTS ]</b></a> &nbsp;·&nbsp;
-  <a href="#snake-matrix"><b>[ 04 SNAKE MATRIX ]</b></a> &nbsp;·&nbsp;
-  <a href="#wakatime-telemetry"><b>[ 05 WAKATIME ]</b></a> &nbsp;·&nbsp;
-  <a href="#github-telemetry"><b>[ 06 GITHUB STATS ]</b></a> &nbsp;·&nbsp;
-  <a href="#builder-credentials"><b>[ 07 CREDENTIALS ]</b></a> &nbsp;·&nbsp;
-  <a href="#interactive-terminal"><b>[ 08 TERMINAL ]</b></a> &nbsp;·&nbsp;
-  <a href="#start-conversation"><b>[ 09 CONNECT ]</b></a>
+  <a href="#snake-matrix"><b>[ 03 SNAKE MATRIX ]</b></a> &nbsp;·&nbsp;
+  <a href="#wakatime-telemetry"><b>[ 04 WAKATIME ]</b></a> &nbsp;·&nbsp;
+  <a href="#github-telemetry"><b>[ 05 GITHUB STATS ]</b></a> &nbsp;·&nbsp;
+  <a href="#builder-credentials"><b>[ 06 CREDENTIALS ]</b></a> &nbsp;·&nbsp;
+  <a href="#interactive-terminal"><b>[ 07 TERMINAL ]</b></a> &nbsp;·&nbsp;
+  <a href="#start-conversation"><b>[ 08 CONNECT ]</b></a>
 </p>
 
 <!-- ================= 01 / HERO ================= -->
@@ -58,24 +57,6 @@
   <img src="./assets/divider.svg" width="100%" alt="Cyber Laser Divider" />
 </p>
 
-<!-- ================= THINGS I'VE BUILT ================= -->
-<div id="featured-projects">
-  <h3>Things I've built</h3>
-
-  | Project | What it does | Focus |
-  | :--- | :--- | :--- |
-  | [**3D-Room**](https://github.com/BhaskarAcharjee/3D-Room) | Interactive 3D animated room experience with camera perspective controls | 3D Web + Creative |
-  | [**TShirtify**](https://github.com/BhaskarAcharjee/TShirtify) | AI-powered 3D T-shirt design simulator for visualizing custom apparel | AI + Three.js |
-  | [**PassengerHub**](https://github.com/BhaskarAcharjee/PassengerHub) | Enterprise passenger management system built with Java, Servlets &amp; SQLite | Enterprise Java + DB |
-  | [**TravelGenius**](https://github.com/BhaskarAcharjee/TravelGenius) | Intelligent travel companion with live weather integration &amp; route mapping | Full Stack + APIs |
-  | [**MelodyMorph**](https://github.com/BhaskarAcharjee/MelodyMorph) | Real-time audio visualizer turning sound waves into dynamic visual symphonies | Web Audio + Canvas |
-  | [**AIConverse**](https://github.com/BhaskarAcharjee/AIConverse) | Conversational AI platform powered by Python and modern LLM APIs | Python + AI |
-</div>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Cyber Laser Divider" />
-</p>
-
 <!-- ================= 04 / CONTRIBUTION MATRIX // CYBER SNAKE ================= -->
 <div id="snake-matrix" align="center">
   <img src="./assets/snake-header.svg" width="100%" alt="Contribution Matrix Header" />
@@ -96,12 +77,6 @@
 <!-- ================= 05 / WAKATIME TELEMETRY MATRIX ================= -->
 <div id="wakatime-telemetry" align="center">
   <img src="./assets/wakatime-telemetry.svg" width="100%" alt="WakaTime Development Telemetry Matrix" />
-
-  <p align="center">
-    <a href="https://wakatime.com/@BhaskarAcharjee" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=BhaskarAcharjee&layout=compact&title_color=38bdf8&text_color=9db2d1&bg_color=070b16&border_color=223b5e&hide_border=false&border_radius=12" width="100%" alt="Live WakaTime Tracked Metrics" />
-    </a>
-  </p>
 </div>
 
 <p align="center">
@@ -120,10 +95,6 @@
     <a href="https://github.com/BhaskarAcharjee">
       <img src="https://streak-stats.demolab.com/?user=BhaskarAcharjee&background=070b16&border=223b5e&stroke=38bdf8&ring=38bdf8&fire=ff354f&currStreakLabel=38bdf8&sideNums=f2f5ff&sideLabels=9db2d1&dates=8e9db9&currStreakNum=f2f5ff&border_radius=12" width="49.2%" alt="Bhaskar's GitHub Streak" />
     </a>
-  </p>
-
-  <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=BhaskarAcharjee&bg_color=070b16&color=38bdf8&line=ff354f&point=38bdf8&area=true&hide_border=false&border_color=223b5e&border_radius=12" width="100%" alt="Bhaskar's GitHub Contribution Activity Graph" />
   </p>
 </div>
 
@@ -144,63 +115,6 @@
 <div id="interactive-terminal" align="center">
   <img src="./assets/terminal.svg" width="100%" alt="Interactive Cyber Terminal" />
 </div>
-
-<br/>
-
-<details>
-  <summary><b>▶ [SYS_LOG] View Enterprise Microservices Architecture &amp; TCS Stack</b></summary>
-  <br/>
-  
-  ```bash
-  [SYSTEM TELEMETRY] Initializing TCS Core Microservices Infrastructure...
-  ├── Runtime: OpenJDK 17 LTS / HotSpot VM (G1GC Optimized)
-  ├── Framework: Spring Boot 3.x • Spring Cloud • Resilience4j Circuit Breaker
-  ├── Architecture: Event-Driven Distributed Microservices • RESTful Endpoints
-  ├── Data Layer: Hibernate JPA • Connection Pooling (HikariCP) • SQLite / MySQL
-  ├── Reliability: Automated Failover • Zero-Downtime Hot Deployments • Docker Containers
-  └── Status: 100% OPERATIONAL • High Throughput • Low Latency SLA Verified
-  ```
-</details>
-
-<details>
-  <summary><b>▶ [APK_STORE] View Published Google Play Store Applications (5+ Live)</b></summary>
-  <br/>
-
-  ```bash
-  [PLAY_CONSOLE] Querying Google Play Developer Account...
-  ├── Production Apps Live: 5+ Apps actively serving users
-  ├── UI Toolkit: Jetpack Compose (Declarative, Reactive Material 3)
-  ├── Architecture: MVVM Clean Architecture • Kotlin Coroutines & Flow
-  ├── Persistence: Android Jetpack Room • SQLite Caching • Offline-First Sync
-  └── Performance: Strict 60FPS UI rendering • Memory leak-free lifecycle management
-  ```
-</details>
-
-<details>
-  <summary><b>▶ [WEB_GL] View 3D Web Labs &amp; Audio Visualizer Demos</b></summary>
-  <br/>
-
-  ```bash
-  [CREATIVE_LABS] Mounting WebGL 3D Canvas Context...
-  ├── 3D-Room: Procedural room generation • OrbitControls • Dynamic shadows & camera rigs
-  ├── TShirtify: Real-time texture projection • Canvas decal mapping • Fabric lighting
-  ├── MelodyMorph: Fast Fourier Transform (FFT) • AudioContext real-time frequency analysis
-  └── Deployed at: https://corvas.in • Zero external dependencies • Pure performance
-  ```
-</details>
-
-<details>
-  <summary><b>▶ [LEET_CODE] Algorithmic Problem Solving &amp; System Design Specs</b></summary>
-  <br/>
-
-  ```bash
-  [ALGO_ENGINE] Querying LeetCode & CodeChef Competitive Profile...
-  ├── Handle: https://leetcode.com/bhaskaracharjee
-  ├── Core Categories: Dynamic Programming • Graphs & Trees • Two Pointers • Greedy
-  ├── Philosophy: Understand the root constraints -> Model mathematically -> Optimize space/time
-  └── Verification: All test cases passed with clean asymptotic complexity
-  ```
-</details>
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Cyber Laser Divider" />

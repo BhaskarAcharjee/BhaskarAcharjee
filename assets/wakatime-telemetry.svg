@@ -30,7 +30,7 @@
 
 <!-- Header -->
 <path d="M42 56 L1158 56" fill="none" stroke="#223149" stroke-width="1.5"/>
-<text x="44" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">05 / DEVELOPMENT TELEMETRY</text>
+<text x="44" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">04 / DEVELOPMENT TELEMETRY</text>
 <text x="440" y="36" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">WAKATIME TIME MATRIX</text>
 
 <!-- Live Badge -->

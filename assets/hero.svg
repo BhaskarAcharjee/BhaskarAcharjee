@@ -134,23 +134,25 @@
 
   <!-- Huge Name Typography -->
   <g class="heading">
-    <text x="39" y="286" font-size="124" fill="#f2f5ff" letter-spacing="1">BHASKAR</text>
-    <text x="40" y="396" font-size="124" fill="url(#hero-aurora)" letter-spacing="1">ACHARJEE</text>
+    <text x="38" y="272" font-size="108" fill="#f2f5ff" letter-spacing="1">BHASKAR</text>
+    <text x="38" y="378" font-size="108" fill="url(#hero-aurora)" letter-spacing="1">ACHARJEE</text>
   </g>
 
-  <!-- Hazard Chevrons & Slogan -->
-  <path d="M383 314l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <path d="M395 314l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <path d="M407 314l9 0 -7 18h-9Z" fill="#ff354f"/>
-  <text x="382" y="365" font-size="28" fill="#f2f5ff" class="heading">INNOVATE.</text>
-  <text x="382" y="395" font-size="28" fill="#f2f5ff" class="heading">SCALE.</text>
+  <!-- Hazard Chevrons & Slogan (Positioned to the right of BHASKAR with zero overlap) -->
+  <g transform="translate(565, 218)">
+    <path d="M0 0l8 0 -6 16h-8Z" fill="#ff354f"/>
+    <path d="M12 0l8 0 -6 16h-8Z" fill="#ff354f"/>
+    <path d="M24 0l8 0 -6 16h-8Z" fill="#ff354f"/>
+    <text x="0" y="36" font-size="22" fill="#f2f5ff" class="heading" letter-spacing="1.2">INNOVATE.</text>
+    <text x="0" y="60" font-size="22" fill="#f2f5ff" class="heading" letter-spacing="1.2">SCALE.</text>
+  </g>
 
   <!-- Dynamic Role -->
   <g class="sans">
-    <text x="46" y="446" font-size="26" font-weight="700" fill="#f2f5ff">
+    <text x="44" y="436" font-size="26" font-weight="700" fill="#f2f5ff">
       Java Backend Developer @ TCS
     </text>
-    <text x="46" y="482" font-size="14.5" fill="#adbed8" class="mono">
+    <text x="44" y="472" font-size="14.5" fill="#adbed8" class="mono">
       Building scalable enterprise microservices &amp; 5+ published Google Play apps.
     </text>
   </g>

@@ -1,25 +1,35 @@
 <a id="readme-top"></a>
 
+<!-- ========================================================================= -->
+<!-- 🌟 TOP NAVIGATION BAR: 5 NEON GLOWING PILL BUTTONS                        -->
+<!-- ========================================================================= -->
+<div><a href="https://twitter.com/_bha_s_kar_" target="_blank"><img src="assets/nav-twitter.svg" width="19.5%" height="75" alt="X / Twitter"></a><a href="https://www.linkedin.com/in/bhaskar-acharjee/" target="_blank"><img src="assets/nav-linkedin.svg" width="19.5%" height="75" alt="LinkedIn"></a><a href="https://corvas.in" target="_blank"><img src="assets/nav-logo.svg" width="22%" height="75" alt="Logo"></a><a href="https://www.youtube.com/@CorvasBhaskar" target="_blank"><img src="assets/nav-youtube.svg" width="19.5%" height="75" alt="YouTube"></a><a href="https://corvas.in" target="_blank"><img src="assets/nav-portfolio.svg" width="19.5%" height="75" alt="Portfolio"></a></div>
+
+<!-- ========================================================================= -->
+<!-- 💬 HERO: THUMBS UP DEVELOPER & NEON SPEECH BUBBLE                        -->
+<!-- ========================================================================= -->
+<div><img src="assets/hero.svg" width="100%" alt="Bhaskar with thumbs up in dark mode with a speech bubble"></div>
+
+<!-- ========================================================================= -->
+<!-- 🎛️ 4-QUADRANT SHOWCASE GRID (POINTING DEVELOPER IN CENTER)                -->
+<!-- ========================================================================= -->
+<div><a href="https://github.com/BhaskarAcharjee"><img src="assets/dark-tl.jpg" width="50%" alt="Enterprise Backend @ TCS"></a><a href="https://play.google.com/store/apps/developer?id=Corvas" target="_blank"><img src="assets/dark-tr.jpg" width="50%" alt="Mobile Apps 5+ Play Store"></a><a href="https://github.com/BhaskarAcharjee/3D-Room"><img src="assets/dark-bl.jpg" width="50%" alt="Creative 3D Labs"></a><a href="https://corvas.in" target="_blank"><img src="assets/dark-br.jpg" width="50%" alt="corvas.in & Systems"></a></div>
+
+<br>
+
 <div align="center">
 
   <!-- ========================================================================= -->
-  <!-- 🌟 HERO BANNER (ANIMATED CYBERPUNK VECTOR)                                -->
-  <!-- ========================================================================= -->
-  <img src="./assets/banner.svg" alt="Bhaskar Acharjee Banner" width="100%" />
-
-  <br><br>
-
-  <!-- ========================================================================= -->
-  <!-- ⚡ DYNAMIC ANIMATED TYPING SVGs                                           -->
+  <!-- ⚡ DYNAMIC TYPING HEADLINE                                                -->
   <!-- ========================================================================= -->
   <a href="https://github.com/BhaskarAcharjee">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2600&pause=800&color=38BDF8&background=0D111700&center=true&vCenter=true&width=750&height=52&lines=Java+Backend+Developer+%40+TCS;Mobile+App+Architect+(5%2B+Play+Store+Apps);High-Throughput+Microservices+%26+Distributed+Systems;Full-Stack+Web+%26+Cloud+Enthusiast;Transforming+Complex+Ideas+Into+Scalable+Code" alt="Bhaskar Acharjee Dynamic Headline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=800&color=FF007F&background=0D111700&center=true&vCenter=true&width=750&height=50&lines=Java+Backend+Developer+%40+TCS;Mobile+App+Architect+(5%2B+Play+Store+Apps);High-Throughput+Microservices+%26+Distributed+Systems;Full-Stack+Web+%26+Cloud+Enthusiast;Transforming+Complex+Ideas+Into+Scalable+Code" alt="Bhaskar Acharjee Dynamic Headline" />
   </a>
 
   <br>
 
   <!-- ========================================================================= -->
-  <!-- 🚀 LIVE METRICS & STATUS BADGES                                           -->
+  <!-- 🚀 LIVE STATUS BADGES                                                     -->
   <!-- ========================================================================= -->
   <p align="center">
     <a href="https://wakatime.com/@018dbb03-6bb3-4dc5-93eb-d208a2768864">
@@ -27,30 +37,23 @@
     </a>
     &nbsp;
     <a href="https://github.com/BhaskarAcharjee?tab=followers">
-      <img src="https://img.shields.io/github/followers/BhaskarAcharjee?label=Followers&style=for-the-badge&color=818cf8&logo=github&logoColor=white" alt="GitHub Followers" />
+      <img src="https://img.shields.io/github/followers/BhaskarAcharjee?label=Followers&style=for-the-badge&color=e0288d&logo=github&logoColor=white" alt="GitHub Followers" />
     </a>
     &nbsp;
     <a href="https://github.com/BhaskarAcharjee?tab=repositories">
-      <img src="https://img.shields.io/badge/Repositories-34-38bdf8?style=for-the-badge&logo=git&logoColor=white" alt="Public Repositories" />
+      <img src="https://img.shields.io/badge/Repositories-34-f1009b?style=for-the-badge&logo=git&logoColor=white" alt="Public Repositories" />
     </a>
     &nbsp;
     <a href="https://komarev.com/ghpvc/?username=BhaskarAcharjee">
-      <img src="https://komarev.com/ghpvc/?username=BhaskarAcharjee&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="Profile Views" />
+      <img src="https://komarev.com/ghpvc/?username=BhaskarAcharjee&label=Profile%20Views&color=9d02d7&style=for-the-badge" alt="Profile Views" />
     </a>
-  </p>
-
-  <!-- ========================================================================= -->
-  <!-- 💬 DEVELOPER PHILOSOPHY / QUOTE                                           -->
-  <!-- ========================================================================= -->
-  <p align="center">
-    <em>✨ "Architecting resilient distributed backend systems &amp; intuitive mobile experiences with precision, curiosity, and code." ✨</em>
   </p>
 
 </div>
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -78,7 +81,7 @@
     </td>
     <td width="47%" valign="middle" align="center">
       <!-- LIVE ANIMATED TERMINAL SIMULATOR -->
-      <img src="./assets/terminal.svg" width="100%" alt="Bhaskar Terminal Diagnostics" />
+      <img src="assets/terminal.svg" width="100%" alt="Bhaskar Terminal Diagnostics" />
     </td>
   </tr>
 </table>
@@ -87,7 +90,7 @@
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -187,7 +190,7 @@
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -266,7 +269,7 @@
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -305,7 +308,7 @@
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -348,7 +351,7 @@
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -370,7 +373,7 @@
 
 <!-- ANIMATED CYBER DIVIDER -->
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Divider" />
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
 </div>
 
 <!-- ========================================================================= -->
@@ -420,7 +423,7 @@
 <div align="center">
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=BhaskarAcharjee&label=TOTAL+PROFILE+VISITS&color=38bdf8&style=flat-square" alt="Total Profile Visits" />
+    <img src="https://komarev.com/ghpvc/?username=BhaskarAcharjee&label=TOTAL+PROFILE+VISITS&color=e0288d&style=flat-square" alt="Total Profile Visits" />
   </p>
 
   <p>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="100%" height="100%">
+<defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .heading { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+  </style>
+
+  <linearGradient id="about-hairline" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".5"/>
+    <stop offset="50%" stop-color="#1f3760" stop-opacity=".2"/>
+    <stop offset="100%" stop-color="#ff354f" stop-opacity=".4"/>
+  </linearGradient>
+
+  <pattern id="about-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#2d4a73" fill-opacity=".25"/>
+  </pattern>
+
+  <clipPath id="about-outer">
+    <rect x="1" y="1" width="1198" height="638" rx="22"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#about-outer)">
+  <rect x="1" y="1" width="1198" height="638" rx="22" fill="#070b16" stroke="url(#about-hairline)" stroke-width="1.8"/>
+  <rect x="2" y="2" width="1196" height="636" rx="21" fill="url(#about-dots)"/>
+
+  <!-- Top Header -->
+  <path d="M42 66 L1158 66" fill="none" stroke="#223149" stroke-width="1.5"/>
+  <text x="44" y="42" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">02 / THE BLUEPRINT</text>
+  <text x="960" y="42" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">FOUNDATIONS &amp; CRAFT</text>
+
+  <!-- Left Column: Core Focus Cards -->
+  <g transform="translate(44, 90)">
+    <text x="0" y="24" font-size="28" fill="#f2f5ff" class="heading">Engineering Architecture</text>
+    <text x="0" y="52" font-size="13.5" fill="#8e9db9" class="mono">Where backend resilience meets mobile craft.</text>
+
+    <!-- Card 1: Enterprise Backend -->
+    <g transform="translate(0, 80)">
+      <rect width="530" height="120" rx="12" fill="#0b1424" stroke="#223b5e" stroke-width="1.4"/>
+      <path d="M16 0 L80 0" stroke="#247bff" stroke-width="3"/>
+      <text x="24" y="36" font-size="18" fill="#f2f5ff" class="heading">Enterprise Java @ TCS</text>
+      <text x="24" y="64" font-size="13" fill="#9db2d1" class="sans">Architecting high-throughput microservices, robust RESTful APIs,</text>
+      <text x="24" y="86" font-size="13" fill="#9db2d1" class="sans">and fault-tolerant data pipelines for mission-critical enterprise systems.</text>
+      <rect x="420" y="20" width="86" height="24" rx="4" fill="#122c49"/>
+      <text x="432" y="36" font-size="10" fill="#73b0ff" class="mono">BACKEND</text>
+    </g>
+
+    <!-- Card 2: Mobile Ecosystem -->
+    <g transform="translate(0, 220)">
+      <rect width="530" height="120" rx="12" fill="#0b1424" stroke="#223b5e" stroke-width="1.4"/>
+      <path d="M16 0 L80 0" stroke="#ff354f" stroke-width="3"/>
+      <text x="24" y="36" font-size="18" fill="#f2f5ff" class="heading">5+ Published Play Store Apps</text>
+      <text x="24" y="64" font-size="13" fill="#9db2d1" class="sans">End-to-end native Android engineering with Kotlin, Jetpack</text>
+      <text x="24" y="86" font-size="13" fill="#9db2d1" class="sans">Compose, offline SQLite caching, and fluid user experiences.</text>
+      <rect x="420" y="20" width="86" height="24" rx="4" fill="#301524"/>
+      <text x="432" y="36" font-size="10" fill="#ff7088" class="mono">ANDROID</text>
+    </g>
+
+    <!-- Card 3: Creative 3D & Analytics -->
+    <g transform="translate(0, 360)">
+      <rect width="530" height="120" rx="12" fill="#0b1424" stroke="#223b5e" stroke-width="1.4"/>
+      <path d="M16 0 L80 0" stroke="#38bdf8" stroke-width="3"/>
+      <text x="24" y="36" font-size="18" fill="#f2f5ff" class="heading">3D Web Labs &amp; Data Insights</text>
+      <text x="24" y="64" font-size="13" fill="#9db2d1" class="sans">Building 3D simulations (3D-Room, TShirtify AI), audio visualizers,</text>
+      <text x="24" y="86" font-size="13" fill="#9db2d1" class="sans">and automated Python data analytics pipelines for deep business insights.</text>
+      <rect x="420" y="20" width="86" height="24" rx="4" fill="#0e2a3a"/>
+      <text x="435" y="36" font-size="10" fill="#38bdf8" class="mono">3D + AI</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Beyond the Desk Card -->
+  <g transform="translate(620, 110)">
+    <rect width="536" height="470" rx="14" fill="#0c1628" stroke="#233d61" stroke-width="1.5"/>
+    <text x="32" y="44" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">BEYOND CODE // PHILOSOPHY</text>
+    <text x="32" y="86" font-size="32" fill="#f2f5ff" class="heading">Discipline. Logic. Impact.</text>
+
+    <!-- Point 01 -->
+    <g transform="translate(32, 130)">
+      <text x="0" y="28" font-size="32" fill="#247bff" class="heading">01</text>
+      <text x="50" y="16" font-size="11" fill="#8e9db9" class="mono">B.TECH ELECTRONICS (JGEC)</text>
+      <text x="50" y="36" font-size="15" fill="#f2f5ff" class="sans">Hardware-informed understanding of low-level systems &amp; optimization.</text>
+      <path d="M0 56 L470 56" stroke="#1c2d47" stroke-width="1"/>
+    </g>
+
+    <!-- Point 02 -->
+    <g transform="translate(32, 215)">
+      <text x="0" y="28" font-size="32" fill="#ff354f" class="heading">02</text>
+      <text x="50" y="16" font-size="11" fill="#8e9db9" class="mono">ALGORITHMIC PROBLEM SOLVING</text>
+      <text x="50" y="36" font-size="15" fill="#f2f5ff" class="sans">Consistently solving on LeetCode &amp; CodeChef for analytical rigor.</text>
+      <path d="M0 56 L470 56" stroke="#1c2d47" stroke-width="1"/>
+    </g>
+
+    <!-- Point 03 -->
+    <g transform="translate(32, 300)">
+      <text x="0" y="28" font-size="32" fill="#38bdf8" class="heading">03</text>
+      <text x="50" y="16" font-size="11" fill="#8e9db9" class="mono">INDEPENDENT CREATOR</text>
+      <text x="50" y="36" font-size="15" fill="#f2f5ff" class="sans">Published apps, web portals (corvas.in) and developer YouTube videos.</text>
+      <path d="M0 56 L470 56" stroke="#1c2d47" stroke-width="1"/>
+    </g>
+
+    <!-- Bottom Accent Pill -->
+    <rect x="32" y="390" width="470" height="50" rx="8" fill="#11223b"/>
+    <circle cx="56" cy="415" r="4.5" fill="#38bdf8"/>
+    <text x="74" y="419" font-size="12" fill="#b9d6ff" class="mono">CURIOUS BY DEFAULT · BUILDING WITH INTENT</text>
+  </g>
+</g>
+</svg>

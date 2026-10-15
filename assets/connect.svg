@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+<defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .heading { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+  </style>
+
+  <linearGradient id="conn-hairline" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3d93ff" stop-opacity=".5"/>
+    <stop offset="50%" stop-color="#1f3760" stop-opacity=".2"/>
+    <stop offset="100%" stop-color="#ff354f" stop-opacity=".4"/>
+  </linearGradient>
+
+  <pattern id="conn-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#2d4a73" fill-opacity=".25"/>
+  </pattern>
+
+  <clipPath id="conn-outer">
+    <rect x="1" y="1" width="1198" height="318" rx="22"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#conn-outer)">
+  <rect x="1" y="1" width="1198" height="318" rx="22" fill="#070b16" stroke="url(#conn-hairline)" stroke-width="1.8"/>
+  <rect x="2" y="2" width="1196" height="316" rx="21" fill="url(#conn-dots)"/>
+
+  <!-- Header line -->
+  <path d="M42 54 L1158 54" fill="none" stroke="#223149" stroke-width="1.5"/>
+  <text x="44" y="34" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">05 / INITIATE CONTACT</text>
+  <text x="960" y="34" font-size="11" fill="#8e9db9" class="mono" letter-spacing="1.6">OPEN FOR OPPORTUNITIES</text>
+
+  <!-- Big Call to Action -->
+  <text x="44" y="128" font-size="48" fill="#f2f5ff" class="heading">Let's build what's next.</text>
+  <text x="44" y="168" font-size="16" fill="#a9c0df" class="sans">
+    Open to high-impact distributed backend engineering, mobile app architecture, and open-source collaborations.
+  </text>
+
+  <!-- Status Capsule -->
+  <rect x="44" y="210" width="240" height="38" rx="8" fill="#102542" stroke="#247bff" stroke-width="1.4"/>
+  <circle cx="68" cy="229" r="4.5" fill="#38bdf8"/>
+  <text x="84" y="234" font-size="11" fill="#b9d6ff" class="mono">KOLKATA, IN · OPEN TO WORK</text>
+
+  <!-- Right Side Accent -->
+  <path d="M1092 120l9 0 -7 18h-9Z" fill="#247bff"/>
+  <path d="M1104 120l9 0 -7 18h-9Z" fill="#247bff"/>
+  <path d="M1116 120l9 0 -7 18h-9Z" fill="#ff354f"/>
+  <text x="920" y="234" font-size="11" fill="#6688b5" class="mono">BHASKAR ACHARJEE © 2026</text>
+</g>
+</svg>

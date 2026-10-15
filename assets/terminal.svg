@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 370" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="60%" stop-color="#0e172e"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+
+    <!-- Border Glow -->
+    <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#c084fc" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Scanline Gradient -->
+    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-50px); }
+        100% { transform: translateY(370px); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.2); opacity: 1; }
+      }
+      .cursor {
+        animation: blink 0.9s infinite;
+      }
+      .scan-beam {
+        animation: scan 4s linear infinite;
+      }
+      .pulse-green {
+        animation: pulseDot 2s infinite ease-in-out;
+        transform-origin: 504px 22px;
+      }
+      .code-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Window Container & Glow Border -->
+  <rect width="540" height="370" rx="16" fill="url(#term-bg)"/>
+  <rect x="1" y="1" width="538" height="368" rx="15" fill="none" stroke="url(#term-border)" stroke-width="1.6"/>
+
+  <!-- Window Header Bar -->
+  <path d="M 0 16 C 0 7.16 7.16 0 16 0 L 524 0 C 532.84 0 540 7.16 540 16 L 540 40 L 0 40 Z" fill="#0d1424" fill-opacity="0.95"/>
+  <line x1="0" y1="40" x2="540" y2="40" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- macOS Window Dots -->
+  <circle cx="24" cy="20" r="5.5" fill="#f87171"/>
+  <circle cx="42" cy="20" r="5.5" fill="#fbbf24"/>
+  <circle cx="60" cy="20" r="5.5" fill="#34d399"/>
+
+  <!-- Window Title -->
+  <text x="270" y="24" class="code-font" font-size="12" fill="#94a3b8" text-anchor="middle" font-weight="600">bhaskar@tcs-engine: ~/system</text>
+
+  <!-- Live Status Beacon -->
+  <circle cx="504" cy="20" r="4.5" fill="#34d399" class="pulse-green"/>
+
+  <!-- Animated Scanline Overlay -->
+  <g class="scan-beam">
+    <rect x="0" y="0" width="540" height="40" fill="url(#scanline)"/>
+  </g>
+
+  <!-- Terminal Content Lines -->
+  <g transform="translate(24, 66)" class="code-font" font-size="12.5" line-height="1.6">
+    <!-- Prompt 1 -->
+    <text y="0">
+      <tspan fill="#34d399" font-weight="700">bhaskar@tcs</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#94a3b8">$ </tspan>
+      <tspan fill="#f1f5f9">sysinfo --verbose</tspan>
+    </text>
+
+    <!-- Line 1: Identity -->
+    <text y="24">
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Developer: </tspan><tspan fill="#7dd3fc" font-weight="600">Bhaskar Acharjee</tspan>
+    </text>
+
+    <!-- Line 2: Role -->
+    <text y="46">
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Role: </tspan><tspan fill="#fbbf24" font-weight="600">Java Backend Developer @ TCS</tspan>
+    </text>
+
+    <!-- Line 3: Published Apps -->
+    <text y="68">
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Google Play: </tspan><tspan fill="#34d399" font-weight="600">5+ Published Android Apps 🚀</tspan>
+    </text>
+
+    <!-- Line 4: Core Architecture -->
+    <text y="90">
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Core Stack: </tspan><tspan fill="#c084fc">Java 17+ • Spring Boot • Kotlin</tspan>
+    </text>
+
+    <!-- Line 5: Frameworks -->
+    <text y="112">
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Ecosystem: </tspan><tspan fill="#cbd5e1">Microservices • Jetpack Compose • REST</tspan>
+    </text>
+
+    <!-- Line 6: Database/Cloud -->
+    <text y="134">
+      <tspan fill="#64748b">├─ </tspan><tspan fill="#94a3b8">Databases: </tspan><tspan fill="#38bdf8">MySQL • SQLite • MongoDB • Firebase</tspan>
+    </text>
+
+    <!-- Line 7: Performance Check -->
+    <text y="156">
+      <tspan fill="#64748b">└─ </tspan><tspan fill="#94a3b8">Diagnostics: </tspan><tspan fill="#34d399">✔ Latency: 12ms | SLA: 99.99%</tspan>
+    </text>
+
+    <!-- Prompt 2 -->
+    <text y="190">
+      <tspan fill="#34d399" font-weight="700">bhaskar@tcs</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#94a3b8">$ </tspan>
+      <tspan fill="#f1f5f9">echo $CURRENT_OBJECTIVE</tspan>
+    </text>
+
+    <!-- Output 2 -->
+    <text y="214">
+      <tspan fill="#f472b6" font-weight="600">"Building high-scale, impactful distributed software."</tspan>
+    </text>
+
+    <!-- Active Input with Animated Blinking Cursor -->
+    <text y="248">
+      <tspan fill="#34d399" font-weight="700">bhaskar@tcs</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#38bdf8">~</tspan><tspan fill="#94a3b8">$ </tspan>
+      <tspan fill="#38bdf8">initiate_collaboration</tspan>
+      <tspan fill="#38bdf8" class="cursor"> ▋</tspan>
+    </text>
+
+    <!-- Status Strip Capsule -->
+    <g transform="translate(0, 268)">
+      <rect width="492" height="24" rx="12" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1"/>
+      <circle cx="14" cy="12" r="3.5" fill="#34d399"/>
+      <text x="26" y="15.5" font-size="10.5" fill="#94a3b8">SYSTEM: <tspan fill="#86efac" font-weight="700">OPTIMAL</tspan> | LOCATION: <tspan fill="#7dd3fc">KOLKATA, INDIA</tspan> | OPEN TO COLLAB</text>
+    </g>
+  </g>
+</svg>

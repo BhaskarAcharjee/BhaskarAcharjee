@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 32" width="100%" height="32" fill="none">
+  <defs>
+    <!-- Traveling Beam Gradient -->
+    <linearGradient id="beam-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Center Glow -->
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a0f1d" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      @keyframes beamSlide {
+        0% { transform: translateX(-350px); }
+        50% { transform: translateX(950px); }
+        100% { transform: translateX(-350px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
+      @keyframes rotateDiamond {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .traveling-beam {
+        animation: beamSlide 6s infinite ease-in-out;
+      }
+      .pulsing-center {
+        animation: pulseGlow 3s infinite ease-in-out;
+        transform-origin: 500px 16px;
+      }
+      .rotating-node {
+        animation: rotateDiamond 12s infinite linear;
+        transform-origin: 500px 16px;
+      }
+    </style>
+  </defs>
+
+  <!-- Static Track Line -->
+  <line x1="40" y1="16" x2="960" y2="16" stroke="#1e293b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="200" y1="16" x2="800" y2="16" stroke="#334155" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- Animated Traveling Laser Beam -->
+  <g class="traveling-beam">
+    <rect x="0" y="14.5" width="280" height="3" rx="1.5" fill="url(#beam-grad)"/>
+    <circle cx="140" cy="16" r="3.5" fill="#ffffff" filter="drop-shadow(0 0 6px #38bdf8)"/>
+  </g>
+
+  <!-- Central Glowing Ambient Aura -->
+  <circle cx="500" cy="16" r="16" fill="url(#center-glow)" class="pulsing-center"/>
+
+  <!-- Central Sci-Fi Diamond -->
+  <g class="rotating-node">
+    <polygon points="500,8 508,16 500,24 492,16" fill="#0f172a" stroke="#38bdf8" stroke-width="1.8"/>
+  </g>
+  <circle cx="500" cy="16" r="2.5" fill="#38bdf8"/>
+</svg>
